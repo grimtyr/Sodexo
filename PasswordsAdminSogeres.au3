@@ -1,0 +1,2675 @@
+﻿Global Const $WS_TILED = 0
+Global Const $WS_OVERLAPPED = 0
+Global Const $WS_MAXIMIZEBOX = 65536
+Global Const $WS_MINIMIZEBOX = 131072
+Global Const $WS_TABSTOP = 65536
+Global Const $WS_GROUP = 131072
+Global Const $WS_SIZEBOX = 262144
+Global Const $WS_THICKFRAME = 262144
+Global Const $WS_SYSMENU = 524288
+Global Const $WS_HSCROLL = 1048576
+Global Const $WS_VSCROLL = 2097152
+Global Const $WS_DLGFRAME = 4194304
+Global Const $WS_BORDER = 8388608
+Global Const $WS_CAPTION = 12582912
+Global Const $WS_OVERLAPPEDWINDOW = 13565952
+Global Const $WS_TILEDWINDOW = 13565952
+Global Const $WS_MAXIMIZE = 16777216
+Global Const $WS_CLIPCHILDREN = 33554432
+Global Const $WS_CLIPSIBLINGS = 67108864
+Global Const $WS_DISABLED = 134217728
+Global Const $WS_VISIBLE = 268435456
+Global Const $WS_MINIMIZE = 536870912
+Global Const $WS_CHILD = 1073741824
+Global Const $WS_POPUP = -2147483648
+Global Const $WS_POPUPWINDOW = -2138570752
+Global Const $DS_MODALFRAME = 128
+Global Const $DS_SETFOREGROUND = 512
+Global Const $DS_CONTEXTHELP = 8192
+Global Const $WS_EX_ACCEPTFILES = 16
+Global Const $WS_EX_MDICHILD = 64
+Global Const $WS_EX_APPWINDOW = 262144
+Global Const $WS_EX_CLIENTEDGE = 512
+Global Const $WS_EX_CONTEXTHELP = 1024
+Global Const $WS_EX_DLGMODALFRAME = 1
+Global Const $WS_EX_LEFTSCROLLBAR = 16384
+Global Const $WS_EX_OVERLAPPEDWINDOW = 768
+Global Const $WS_EX_RIGHT = 4096
+Global Const $WS_EX_STATICEDGE = 131072
+Global Const $WS_EX_TOOLWINDOW = 128
+Global Const $WS_EX_TOPMOST = 8
+Global Const $WS_EX_TRANSPARENT = 32
+Global Const $WS_EX_WINDOWEDGE = 256
+Global Const $WS_EX_LAYERED = 524288
+Global Const $WS_EX_CONTROLPARENT = 65536
+Global Const $WS_EX_LAYOUTRTL = 4194304
+Global Const $WS_EX_RTLREADING = 8192
+Global Const $WM_GETTEXTLENGTH = 14
+Global Const $WM_GETTEXT = 13
+Global Const $WM_SIZE = 5
+Global Const $WM_SIZING = 532
+Global Const $WM_USER = 1024
+Global Const $WM_CREATE = 1
+Global Const $WM_DESTROY = 2
+Global Const $WM_MOVE = 3
+Global Const $WM_ACTIVATE = 6
+Global Const $WM_SETFOCUS = 7
+Global Const $WM_KILLFOCUS = 8
+Global Const $WM_ENABLE = 10
+Global Const $WM_SETREDRAW = 11
+Global Const $WM_SETTEXT = 12
+Global Const $WM_PAINT = 15
+Global Const $WM_CLOSE = 16
+Global Const $WM_QUIT = 18
+Global Const $WM_ERASEBKGND = 20
+Global Const $WM_SYSCOLORCHANGE = 21
+Global Const $WM_SHOWWINDOW = 24
+Global Const $WM_WININICHANGE = 26
+Global Const $WM_DEVMODECHANGE = 27
+Global Const $WM_ACTIVATEAPP = 28
+Global Const $WM_FONTCHANGE = 29
+Global Const $WM_TIMECHANGE = 30
+Global Const $WM_CANCELMODE = 31
+Global Const $WM_SETCURSOR = 32
+Global Const $WM_MOUSEACTIVATE = 33
+Global Const $WM_CHILDACTIVATE = 34
+Global Const $WM_QUEUESYNC = 35
+Global Const $WM_GETMINMAXINFO = 36
+Global Const $WM_PAINTICON = 38
+Global Const $WM_ICONERASEBKGND = 39
+Global Const $WM_NEXTDLGCTL = 40
+Global Const $WM_SPOOLERSTATUS = 42
+Global Const $WM_DRAWITEM = 43
+Global Const $WM_MEASUREITEM = 44
+Global Const $WM_DELETEITEM = 45
+Global Const $WM_VKEYTOITEM = 46
+Global Const $WM_CHARTOITEM = 47
+Global Const $WM_SETFONT = 48
+Global Const $WM_GETFONT = 49
+Global Const $WM_SETHOTKEY = 50
+Global Const $WM_GETHOTKEY = 51
+Global Const $WM_QUERYDRAGICON = 55
+Global Const $WM_COMPAREITEM = 57
+Global Const $WM_GETOBJECT = 61
+Global Const $WM_COMPACTING = 65
+Global Const $WM_COMMNOTIFY = 68
+Global Const $WM_WINDOWPOSCHANGING = 70
+Global Const $WM_WINDOWPOSCHANGED = 71
+Global Const $WM_POWER = 72
+Global Const $WM_NOTIFY = 78
+Global Const $WM_COPYDATA = 74
+Global Const $WM_CANCELJOURNAL = 75
+Global Const $WM_INPUTLANGCHANGEREQUEST = 80
+Global Const $WM_INPUTLANGCHANGE = 81
+Global Const $WM_TCARD = 82
+Global Const $WM_HELP = 83
+Global Const $WM_USERCHANGED = 84
+Global Const $WM_NOTIFYFORMAT = 85
+Global Const $WM_CUT = 768
+Global Const $WM_COPY = 769
+Global Const $WM_PASTE = 770
+Global Const $WM_CLEAR = 771
+Global Const $WM_UNDO = 772
+Global Const $WM_CONTEXTMENU = 123
+Global Const $WM_STYLECHANGING = 124
+Global Const $WM_STYLECHANGED = 125
+Global Const $WM_DISPLAYCHANGE = 126
+Global Const $WM_GETICON = 127
+Global Const $WM_SETICON = 128
+Global Const $WM_NCCREATE = 129
+Global Const $WM_NCDESTROY = 130
+Global Const $WM_NCCALCSIZE = 131
+Global Const $WM_NCHITTEST = 132
+Global Const $WM_NCPAINT = 133
+Global Const $WM_NCACTIVATE = 134
+Global Const $WM_GETDLGCODE = 135
+Global Const $WM_SYNCPAINT = 136
+Global Const $WM_NCMOUSEMOVE = 160
+Global Const $WM_NCLBUTTONDOWN = 161
+Global Const $WM_NCLBUTTONUP = 162
+Global Const $WM_NCLBUTTONDBLCLK = 163
+Global Const $WM_NCRBUTTONDOWN = 164
+Global Const $WM_NCRBUTTONUP = 165
+Global Const $WM_NCRBUTTONDBLCLK = 166
+Global Const $WM_NCMBUTTONDOWN = 167
+Global Const $WM_NCMBUTTONUP = 168
+Global Const $WM_NCMBUTTONDBLCLK = 169
+Global Const $WM_KEYDOWN = 256
+Global Const $WM_KEYUP = 257
+Global Const $WM_CHAR = 258
+Global Const $WM_DEADCHAR = 259
+Global Const $WM_SYSKEYDOWN = 260
+Global Const $WM_SYSKEYUP = 261
+Global Const $WM_SYSCHAR = 262
+Global Const $WM_SYSDEADCHAR = 263
+Global Const $WM_INITDIALOG = 272
+Global Const $WM_COMMAND = 273
+Global Const $WM_SYSCOMMAND = 274
+Global Const $WM_TIMER = 275
+Global Const $WM_HSCROLL = 276
+Global Const $WM_VSCROLL = 277
+Global Const $WM_INITMENU = 278
+Global Const $WM_INITMENUPOPUP = 279
+Global Const $WM_MENUSELECT = 287
+Global Const $WM_MENUCHAR = 288
+Global Const $WM_ENTERIDLE = 289
+Global Const $WM_MENURBUTTONUP = 290
+Global Const $WM_MENUDRAG = 291
+Global Const $WM_MENUGETOBJECT = 292
+Global Const $WM_UNINITMENUPOPUP = 293
+Global Const $WM_MENUCOMMAND = 294
+Global Const $WM_CHANGEUISTATE = 295
+Global Const $WM_UPDATEUISTATE = 296
+Global Const $WM_QUERYUISTATE = 297
+Global Const $WM_CTLCOLORMSGBOX = 306
+Global Const $WM_CTLCOLOREDIT = 307
+Global Const $WM_CTLCOLORLISTBOX = 308
+Global Const $WM_CTLCOLORBTN = 309
+Global Const $WM_CTLCOLORDLG = 310
+Global Const $WM_CTLCOLORSCROLLBAR = 311
+Global Const $WM_CTLCOLORSTATIC = 312
+Global Const $WM_CTLCOLOR = 25
+Global Const $MN_GETHMENU = 481
+Global Const $NM_FIRST = 0
+Global Const $NM_OUTOFMEMORY = $NM_FIRST - 1
+Global Const $NM_CLICK = $NM_FIRST - 2
+Global Const $NM_DBLCLK = $NM_FIRST - 3
+Global Const $NM_RETURN = $NM_FIRST - 4
+Global Const $NM_RCLICK = $NM_FIRST - 5
+Global Const $NM_RDBLCLK = $NM_FIRST - 6
+Global Const $NM_SETFOCUS = $NM_FIRST - 7
+Global Const $NM_KILLFOCUS = $NM_FIRST - 8
+Global Const $NM_CUSTOMDRAW = $NM_FIRST - 12
+Global Const $NM_HOVER = $NM_FIRST - 13
+Global Const $NM_NCHITTEST = $NM_FIRST - 14
+Global Const $NM_KEYDOWN = $NM_FIRST - 15
+Global Const $NM_RELEASEDCAPTURE = $NM_FIRST - 16
+Global Const $NM_SETCURSOR = $NM_FIRST - 17
+Global Const $NM_CHAR = $NM_FIRST - 18
+Global Const $NM_TOOLTIPSCREATED = $NM_FIRST - 19
+Global Const $NM_LDOWN = $NM_FIRST - 20
+Global Const $NM_RDOWN = $NM_FIRST - 21
+Global Const $NM_THEMECHANGED = $NM_FIRST - 22
+Global Const $CCM_FIRST = 8192
+Global Const $CCM_GETUNICODEFORMAT = ($CCM_FIRST + 6)
+Global Const $CCM_SETUNICODEFORMAT = ($CCM_FIRST + 5)
+Global Const $CCM_SETBKCOLOR = $CCM_FIRST + 1
+Global Const $CCM_SETCOLORSCHEME = $CCM_FIRST + 2
+Global Const $CCM_GETCOLORSCHEME = $CCM_FIRST + 3
+Global Const $CCM_GETDROPTARGET = $CCM_FIRST + 4
+Global Const $CCM_SETWINDOWTHEME = $CCM_FIRST + 11
+Global Const $GA_PARENT = 1
+Global Const $GA_ROOT = 2
+Global Const $GA_ROOTOWNER = 3
+Global Const $SM_CXSCREEN = 0
+Global Const $SM_CYSCREEN = 1
+Global Const $SM_CXVSCROLL = 2
+Global Const $SM_CYHSCROLL = 3
+Global Const $SM_CYCAPTION = 4
+Global Const $SM_CXBORDER = 5
+Global Const $SM_CYBORDER = 6
+Global Const $SM_CXDLGFRAME = 7
+Global Const $SM_CYDLGFRAME = 8
+Global Const $SM_CYVTHUMB = 9
+Global Const $SM_CXHTHUMB = 10
+Global Const $SM_CXICON = 11
+Global Const $SM_CYICON = 12
+Global Const $SM_CXCURSOR = 13
+Global Const $SM_CYCURSOR = 14
+Global Const $SM_CYMENU = 15
+Global Const $SM_CXFULLSCREEN = 16
+Global Const $SM_CYFULLSCREEN = 17
+Global Const $SM_CYKANJIWINDOW = 18
+Global Const $SM_MOUSEPRESENT = 19
+Global Const $SM_CYVSCROLL = 20
+Global Const $SM_CXHSCROLL = 21
+Global Const $SM_DEBUG = 22
+Global Const $SM_SWAPBUTTON = 23
+Global Const $SM_RESERVED1 = 24
+Global Const $SM_RESERVED2 = 25
+Global Const $SM_RESERVED3 = 26
+Global Const $SM_RESERVED4 = 27
+Global Const $SM_CXMIN = 28
+Global Const $SM_CYMIN = 29
+Global Const $SM_CXSIZE = 30
+Global Const $SM_CYSIZE = 31
+Global Const $SM_CXFRAME = 32
+Global Const $SM_CYFRAME = 33
+Global Const $SM_CXMINTRACK = 34
+Global Const $SM_CYMINTRACK = 35
+Global Const $SM_CXDOUBLECLK = 36
+Global Const $SM_CYDOUBLECLK = 37
+Global Const $SM_CXICONSPACING = 38
+Global Const $SM_CYICONSPACING = 39
+Global Const $SM_MENUDROPALIGNMENT = 40
+Global Const $SM_PENWINDOWS = 41
+Global Const $SM_DBCSENABLED = 42
+Global Const $SM_CMOUSEBUTTONS = 43
+Global Const $SM_SECURE = 44
+Global Const $SM_CXEDGE = 45
+Global Const $SM_CYEDGE = 46
+Global Const $SM_CXMINSPACING = 47
+Global Const $SM_CYMINSPACING = 48
+Global Const $SM_CXSMICON = 49
+Global Const $SM_CYSMICON = 50
+Global Const $SM_CYSMCAPTION = 51
+Global Const $SM_CXSMSIZE = 52
+Global Const $SM_CYSMSIZE = 53
+Global Const $SM_CXMENUSIZE = 54
+Global Const $SM_CYMENUSIZE = 55
+Global Const $SM_ARRANGE = 56
+Global Const $SM_CXMINIMIZED = 57
+Global Const $SM_CYMINIMIZED = 58
+Global Const $SM_CXMAXTRACK = 59
+Global Const $SM_CYMAXTRACK = 60
+Global Const $SM_CXMAXIMIZED = 61
+Global Const $SM_CYMAXIMIZED = 62
+Global Const $SM_NETWORK = 63
+Global Const $SM_CLEANBOOT = 67
+Global Const $SM_CXDRAG = 68
+Global Const $SM_CYDRAG = 69
+Global Const $SM_SHOWSOUNDS = 70
+Global Const $SM_CXMENUCHECK = 71
+Global Const $SM_CYMENUCHECK = 72
+Global Const $SM_SLOWMACHINE = 73
+Global Const $SM_MIDEASTENABLED = 74
+Global Const $SM_MOUSEWHEELPRESENT = 75
+Global Const $SM_XVIRTUALSCREEN = 76
+Global Const $SM_YVIRTUALSCREEN = 77
+Global Const $SM_CXVIRTUALSCREEN = 78
+Global Const $SM_CYVIRTUALSCREEN = 79
+Global Const $SM_CMONITORS = 80
+Global Const $SM_SAMEDISPLAYFORMAT = 81
+Global Const $SM_IMMENABLED = 82
+Global Const $SM_CXFOCUSBORDER = 83
+Global Const $SM_CYFOCUSBORDER = 84
+Global Const $SM_TABLETPC = 86
+Global Const $SM_MEDIACENTER = 87
+Global Const $SM_STARTER = 88
+Global Const $SM_SERVERR2 = 89
+Global Const $SM_CMETRICS = 90
+Global Const $SM_REMOTESESSION = 4096
+Global Const $SM_SHUTTINGDOWN = 8192
+Global Const $SM_REMOTECONTROL = 8193
+Global Const $SM_CARETBLINKINGENABLED = 8194
+Global Const $SRCCOPY = 13369376
+Global Const $SRCPAINT = 15597702
+Global Const $SRCAND = 8913094
+Global Const $SRCINVERT = 6684742
+Global Const $SRCERASE = 4457256
+Global Const $NOTSRCCOPY = 3342344
+Global Const $NOTSRCERASE = 1114278
+Global Const $MERGECOPY = 12583114
+Global Const $MERGEPAINT = 12255782
+Global Const $PATCOPY = 15728673
+Global Const $PATPAINT = 16452105
+Global Const $PATINVERT = 5898313
+Global Const $DSTINVERT = 5570569
+Global Const $BLACKNESS = 66
+Global Const $WHITENESS = 16711778
+Global Const $DT_TOP = 0
+Global Const $DT_LEFT = 0
+Global Const $DT_CENTER = 1
+Global Const $DT_RIGHT = 2
+Global Const $DT_VCENTER = 4
+Global Const $DT_BOTTOM = 8
+Global Const $DT_WORDBREAK = 16
+Global Const $DT_SINGLELINE = 32
+Global Const $DT_EXPANDTABS = 64
+Global Const $DT_TABSTOP = 128
+Global Const $DT_NOCLIP = 256
+Global Const $DT_EXTERNALLEADING = 512
+Global Const $DT_CALCRECT = 1024
+Global Const $DT_NOPREFIX = 2048
+Global Const $DT_INTERNAL = 4096
+Global Const $RDW_INVALIDATE = 1
+Global Const $RDW_INTERNALPAINT = 2
+Global Const $RDW_ERASE = 4
+Global Const $RDW_VALIDATE = 8
+Global Const $RDW_NOINTERNALPAINT = 16
+Global Const $RDW_NOERASE = 32
+Global Const $RDW_NOCHILDREN = 64
+Global Const $RDW_ALLCHILDREN = 128
+Global Const $RDW_UPDATENOW = 256
+Global Const $RDW_ERASENOW = 512
+Global Const $RDW_FRAME = 1024
+Global Const $RDW_NOFRAME = 2048
+Global Const $WM_RENDERFORMAT = 773
+Global Const $WM_RENDERALLFORMATS = 774
+Global Const $WM_DESTROYCLIPBOARD = 775
+Global Const $WM_DRAWCLIPBOARD = 776
+Global Const $WM_PAINTCLIPBOARD = 777
+Global Const $WM_VSCROLLCLIPBOARD = 778
+Global Const $WM_SIZECLIPBOARD = 779
+Global Const $WM_ASKCBFORMATNAME = 780
+Global Const $WM_CHANGECBCHAIN = 781
+Global Const $WM_HSCROLLCLIPBOARD = 782
+Global Const $HTERROR = -2
+Global Const $HTTRANSPARENT = -1
+Global Const $HTNOWHERE = 0
+Global Const $HTCLIENT = 1
+Global Const $HTCAPTION = 2
+Global Const $HTSYSMENU = 3
+Global Const $HTGROWBOX = 4
+Global Const $HTSIZE = $HTGROWBOX
+Global Const $HTMENU = 5
+Global Const $HTHSCROLL = 6
+Global Const $HTVSCROLL = 7
+Global Const $HTMINBUTTON = 8
+Global Const $HTMAXBUTTON = 9
+Global Const $HTLEFT = 10
+Global Const $HTRIGHT = 11
+Global Const $HTTOP = 12
+Global Const $HTTOPLEFT = 13
+Global Const $HTTOPRIGHT = 14
+Global Const $HTBOTTOM = 15
+Global Const $HTBOTTOMLEFT = 16
+Global Const $HTBOTTOMRIGHT = 17
+Global Const $HTBORDER = 18
+Global Const $HTREDUCE = $HTMINBUTTON
+Global Const $HTZOOM = $HTMAXBUTTON
+Global Const $HTSIZEFIRST = $HTLEFT
+Global Const $HTSIZELAST = $HTBOTTOMRIGHT
+Global Const $HTOBJECT = 19
+Global Const $HTCLOSE = 20
+Global Const $HTHELP = 21
+Global Const $COLOR_SCROLLBAR = 0
+Global Const $COLOR_BACKGROUND = 1
+Global Const $COLOR_ACTIVECAPTION = 2
+Global Const $COLOR_INACTIVECAPTION = 3
+Global Const $COLOR_MENU = 4
+Global Const $COLOR_WINDOW = 5
+Global Const $COLOR_WINDOWFRAME = 6
+Global Const $COLOR_MENUTEXT = 7
+Global Const $COLOR_WINDOWTEXT = 8
+Global Const $COLOR_CAPTIONTEXT = 9
+Global Const $COLOR_ACTIVEBORDER = 10
+Global Const $COLOR_INACTIVEBORDER = 11
+Global Const $COLOR_APPWORKSPACE = 12
+Global Const $COLOR_HIGHLIGHT = 13
+Global Const $COLOR_HIGHLIGHTTEXT = 14
+Global Const $COLOR_BTNFACE = 15
+Global Const $COLOR_BTNSHADOW = 16
+Global Const $COLOR_GRAYTEXT = 17
+Global Const $COLOR_BTNTEXT = 18
+Global Const $COLOR_INACTIVECAPTIONTEXT = 19
+Global Const $COLOR_BTNHIGHLIGHT = 20
+Global Const $COLOR_3DDKSHADOW = 21
+Global Const $COLOR_3DLIGHT = 22
+Global Const $COLOR_INFOTEXT = 23
+Global Const $COLOR_INFOBK = 24
+Global Const $COLOR_HOTLIGHT = 26
+Global Const $COLOR_GRADIENTACTIVECAPTION = 27
+Global Const $COLOR_GRADIENTINACTIVECAPTION = 28
+Global Const $COLOR_MENUHILIGHT = 29
+Global Const $COLOR_MENUBAR = 30
+Global Const $COLOR_DESKTOP = 1
+Global Const $COLOR_3DFACE = 15
+Global Const $COLOR_3DSHADOW = 16
+Global Const $COLOR_3DHIGHLIGHT = 20
+Global Const $COLOR_3DHILIGHT = 20
+Global Const $COLOR_BTNHILIGHT = 20
+Global Const $HINST_COMMCTRL = -1
+Global Const $IDB_STD_SMALL_COLOR = 0
+Global Const $IDB_STD_LARGE_COLOR = 1
+Global Const $IDB_VIEW_SMALL_COLOR = 4
+Global Const $IDB_VIEW_LARGE_COLOR = 5
+Global Const $IDB_HIST_SMALL_COLOR = 8
+Global Const $IDB_HIST_LARGE_COLOR = 9
+Global Const $STARTF_FORCEOFFFEEDBACK = 128
+Global Const $STARTF_FORCEONFEEDBACK = 64
+Global Const $STARTF_RUNFULLSCREEN = 32
+Global Const $STARTF_USECOUNTCHARS = 8
+Global Const $STARTF_USEFILLATTRIBUTE = 16
+Global Const $STARTF_USEHOTKEY = 512
+Global Const $STARTF_USEPOSITION = 4
+Global Const $STARTF_USESHOWWINDOW = 1
+Global Const $STARTF_USESIZE = 2
+Global Const $STARTF_USESTDHANDLES = 256
+Global Const $ACS_CENTER = 1
+Global Const $ACS_TRANSPARENT = 2
+Global Const $ACS_AUTOPLAY = 4
+Global Const $ACS_TIMER = 8
+Global Const $ACS_NONTRANSPARENT = 16
+Global Const $OPT_COORDSRELATIVE = 0
+Global Const $OPT_COORDSABSOLUTE = 1
+Global Const $OPT_COORDSCLIENT = 2
+Global Const $OPT_ERRORSILENT = 0
+Global Const $OPT_ERRORFATAL = 1
+Global Const $OPT_CAPSNOSTORE = 0
+Global Const $OPT_CAPSSTORE = 1
+Global Const $OPT_MATCHSTART = 1
+Global Const $OPT_MATCHANY = 2
+Global Const $OPT_MATCHEXACT = 3
+Global Const $OPT_MATCHADVANCED = 4
+Global Const $CCS_TOP = 1
+Global Const $CCS_NOMOVEY = 2
+Global Const $CCS_BOTTOM = 3
+Global Const $CCS_NORESIZE = 4
+Global Const $CCS_NOPARENTALIGN = 8
+Global Const $CCS_NOHILITE = 16
+Global Const $CCS_ADJUSTABLE = 32
+Global Const $CCS_NODIVIDER = 64
+Global Const $CCS_VERT = 128
+Global Const $CCS_LEFT = 129
+Global Const $CCS_NOMOVEX = 130
+Global Const $CCS_RIGHT = 131
+Global Const $DI_MASK = 1
+Global Const $DI_IMAGE = 2
+Global Const $DI_NORMAL = 3
+Global Const $DI_COMPAT = 4
+Global Const $DI_DEFAULTSIZE = 8
+Global Const $DI_NOMIRROR = 16
+Global Const $DISPLAY_DEVICE_ATTACHED_TO_DESKTOP = 1
+Global Const $DISPLAY_DEVICE_MULTI_DRIVER = 2
+Global Const $DISPLAY_DEVICE_PRIMARY_DEVICE = 4
+Global Const $DISPLAY_DEVICE_MIRRORING_DRIVER = 8
+Global Const $DISPLAY_DEVICE_VGA_COMPATIBLE = 16
+Global Const $DISPLAY_DEVICE_REMOVABLE = 32
+Global Const $DISPLAY_DEVICE_DISCONNECT = 33554432
+Global Const $DISPLAY_DEVICE_REMOTE = 67108864
+Global Const $DISPLAY_DEVICE_MODESPRUNED = 134217728
+Global Const $EVENTLOG_SUCCESS = 0
+Global Const $EVENTLOG_ERROR_TYPE = 1
+Global Const $EVENTLOG_WARNING_TYPE = 2
+Global Const $EVENTLOG_INFORMATION_TYPE = 4
+Global Const $EVENTLOG_AUDIT_SUCCESS = 8
+Global Const $EVENTLOG_AUDIT_FAILURE = 16
+Global Const $EVENTLOG_SEQUENTIAL_READ = 1
+Global Const $EVENTLOG_SEEK_READ = 2
+Global Const $EVENTLOG_FORWARDS_READ = 4
+Global Const $EVENTLOG_BACKWARDS_READ = 8
+Global Const $DDL_ARCHIVE = 32
+Global Const $DDL_DIRECTORY = 16
+Global Const $DDL_DRIVES = 16384
+Global Const $DDL_EXCLUSIVE = 32768
+Global Const $DDL_HIDDEN = 2
+Global Const $DDL_READONLY = 1
+Global Const $DDL_READWRITE = 0
+Global Const $DDL_SYSTEM = 4
+Global Const $FC_NOOVERWRITE = 0
+Global Const $FC_OVERWRITE = 1
+Global Const $FT_MODIFIED = 0
+Global Const $FT_CREATED = 1
+Global Const $FT_ACCESSED = 2
+Global Const $FO_READ = 0
+Global Const $FO_APPEND = 1
+Global Const $FO_OVERWRITE = 2
+Global Const $FO_BINARY = 16
+Global Const $FO_UNICODE = 32
+Global Const $FO_UTF16_LE = 32
+Global Const $FO_UTF16_BE = 64
+Global Const $FO_UTF8 = 128
+Global Const $EOF = -1
+Global Const $FD_FILEMUSTEXIST = 1
+Global Const $FD_PATHMUSTEXIST = 2
+Global Const $FD_MULTISELECT = 4
+Global Const $FD_PROMPTCREATENEW = 8
+Global Const $FD_PROMPTOVERWRITE = 16
+Global Const $CREATE_NEW = 1
+Global Const $CREATE_ALWAYS = 2
+Global Const $OPEN_EXISTING = 3
+Global Const $OPEN_ALWAYS = 4
+Global Const $TRUNCATE_EXISTING = 5
+Global Const $FILE_ATTRIBUTE_READONLY = 1
+Global Const $FILE_ATTRIBUTE_HIDDEN = 2
+Global Const $FILE_ATTRIBUTE_SYSTEM = 4
+Global Const $FILE_ATTRIBUTE_DIRECTORY = 16
+Global Const $FILE_ATTRIBUTE_ARCHIVE = 32
+Global Const $FILE_ATTRIBUTE_DEVICE = 64
+Global Const $FILE_ATTRIBUTE_NORMAL = 128
+Global Const $FILE_ATTRIBUTE_TEMPORARY = 256
+Global Const $FILE_ATTRIBUTE_SPARSE_FILE = 512
+Global Const $FILE_ATTRIBUTE_REPARSE_POINT = 1024
+Global Const $FILE_ATTRIBUTE_COMPRESSED = 2048
+Global Const $FILE_ATTRIBUTE_OFFLINE = 4096
+Global Const $FILE_ATTRIBUTE_NOT_CONTENT_INDEXED = 8192
+Global Const $FILE_ATTRIBUTE_ENCRYPTED = 16384
+Global Const $FILE_SHARE_READ = 1
+Global Const $FILE_SHARE_WRITE = 2
+Global Const $FILE_SHARE_DELETE = 4
+Global Const $GENERIC_ALL = 268435456
+Global Const $GENERIC_EXECUTE = 536870912
+Global Const $GENERIC_WRITE = 1073741824
+Global Const $GENERIC_READ = -2147483648
+Global Const $FLASHW_CAPTION = 1
+Global Const $FLASHW_TRAY = 2
+Global Const $FLASHW_TIMER = 4
+Global Const $FLASHW_TIMERNOFG = 12
+Global Const $FORMAT_MESSAGE_ALLOCATE_BUFFER = 256
+Global Const $FORMAT_MESSAGE_IGNORE_INSERTS = 512
+Global Const $FORMAT_MESSAGE_FROM_STRING = 1024
+Global Const $FORMAT_MESSAGE_FROM_HMODULE = 2048
+Global Const $FORMAT_MESSAGE_FROM_SYSTEM = 4096
+Global Const $FORMAT_MESSAGE_ARGUMENT_ARRAY = 8192
+Global Const $GW_HWNDFIRST = 0
+Global Const $GW_HWNDLAST = 1
+Global Const $GW_HWNDNEXT = 2
+Global Const $GW_HWNDPREV = 3
+Global Const $GW_OWNER = 4
+Global Const $GW_CHILD = 5
+Global Const $GWL_WNDPROC = -4
+Global Const $GWL_HINSTANCE = -6
+Global Const $GWL_HWNDPARENT = -8
+Global Const $GWL_ID = -12
+Global Const $GWL_STYLE = -16
+Global Const $GWL_EXSTYLE = -20
+Global Const $GWL_USERDATA = -21
+Global Const $STD_CUT = 0
+Global Const $STD_COPY = 1
+Global Const $STD_PASTE = 2
+Global Const $STD_UNDO = 3
+Global Const $STD_REDOW = 4
+Global Const $STD_DELETE = 5
+Global Const $STD_FILENEW = 6
+Global Const $STD_FILEOPEN = 7
+Global Const $STD_FILESAVE = 8
+Global Const $STD_PRINTPRE = 9
+Global Const $STD_PROPERTIES = 10
+Global Const $STD_HELP = 11
+Global Const $STD_FIND = 12
+Global Const $STD_REPLACE = 13
+Global Const $STD_PRINT = 14
+Global Const $LR_DEFAULTCOLOR = 0
+Global Const $LR_MONOCHROME = 1
+Global Const $LR_COLOR = 2
+Global Const $LR_COPYRETURNORG = 4
+Global Const $LR_COPYDELETEORG = 8
+Global Const $LR_LOADFROMFILE = 16
+Global Const $LR_LOADTRANSPARENT = 32
+Global Const $LR_DEFAULTSIZE = 64
+Global Const $LR_VGACOLOR = 128
+Global Const $LR_LOADMAP3DCOLORS = 4096
+Global Const $LR_CREATEDIBSECTION = 8192
+Global Const $LR_COPYFROMRESOURCE = 16384
+Global Const $LR_SHARED = 32768
+Global Const $IMAGE_BITMAP = 0
+Global Const $IMAGE_ICON = 1
+Global Const $IMAGE_CURSOR = 2
+Global Const $KB_SENDSPECIAL = 0
+Global Const $KB_SENDRAW = 1
+Global Const $KB_CAPSOFF = 0
+Global Const $KB_CAPSON = 1
+Global Const $DONT_RESOLVE_DLL_REFERENCES = 1
+Global Const $LOAD_LIBRARY_AS_DATAFILE = 2
+Global Const $LOAD_WITH_ALTERED_SEARCH_PATH = 8
+Global Const $OBJID_WINDOW = 0
+Global Const $OBJID_SYSMENU = -1
+Global Const $OBJID_TITLEBAR = -2
+Global Const $OBJID_MENU = -3
+Global Const $OBJID_CLIENT = -4
+Global Const $OBJID_VSCROLL = -5
+Global Const $OBJID_HSCROLL = -6
+Global Const $OBJID_SIZEGRIP = -7
+Global Const $OBJID_CARET = -8
+Global Const $OBJID_CURSOR = -9
+Global Const $OBJID_ALERT = -10
+Global Const $OBJID_SOUND = -11
+Global Const $VK_DOWN = 40
+Global Const $VK_END = 35
+Global Const $VK_HOME = 36
+Global Const $VK_LEFT = 37
+Global Const $VK_NEXT = 34
+Global Const $VK_PRIOR = 33
+Global Const $VK_RIGHT = 39
+Global Const $VK_UP = 38
+Global Const $MB_OK = 0
+Global Const $MB_OKCANCEL = 1
+Global Const $MB_ABORTRETRYIGNORE = 2
+Global Const $MB_YESNOCANCEL = 3
+Global Const $MB_YESNO = 4
+Global Const $MB_RETRYCANCEL = 5
+Global Const $MB_ICONHAND = 16
+Global Const $MB_ICONQUESTION = 32
+Global Const $MB_ICONEXCLAMATION = 48
+Global Const $MB_ICONASTERISK = 64
+Global Const $MB_DEFBUTTON1 = 0
+Global Const $MB_DEFBUTTON2 = 256
+Global Const $MB_DEFBUTTON3 = 512
+Global Const $MB_APPLMODAL = 0
+Global Const $MB_SYSTEMMODAL = 4096
+Global Const $MB_TASKMODAL = 8192
+Global Const $MB_TOPMOST = 262144
+Global Const $MB_RIGHTJUSTIFIED = 524288
+Global Const $IDTIMEOUT = -1
+Global Const $IDOK = 1
+Global Const $IDCANCEL = 2
+Global Const $IDABORT = 3
+Global Const $IDRETRY = 4
+Global Const $IDIGNORE = 5
+Global Const $IDYES = 6
+Global Const $IDNO = 7
+Global Const $IDTRYAGAIN = 10
+Global Const $IDCONTINUE = 11
+Global Const $DLG_NOTITLE = 1
+Global Const $DLG_NOTONTOP = 2
+Global Const $DLG_TEXTLEFT = 4
+Global Const $DLG_TEXTRIGHT = 8
+Global Const $DLG_MOVEABLE = 16
+Global Const $DLG_TEXTVCENTER = 32
+Global Const $TIP_ICONNONE = 0
+Global Const $TIP_ICONASTERISK = 1
+Global Const $TIP_ICONEXCLAMATION = 2
+Global Const $TIP_ICONHAND = 3
+Global Const $TIP_NOSOUND = 16
+Global Const $IDC_UNKNOWN = 0
+Global Const $IDC_APPSTARTING = 1
+Global Const $IDC_ARROW = 2
+Global Const $IDC_CROSS = 3
+Global Const $IDC_HELP = 4
+Global Const $IDC_IBEAM = 5
+Global Const $IDC_ICON = 6
+Global Const $IDC_NO = 7
+Global Const $IDC_SIZE = 8
+Global Const $IDC_SIZEALL = 9
+Global Const $IDC_SIZENESW = 10
+Global Const $IDC_SIZENS = 11
+Global Const $IDC_SIZENWSE = 12
+Global Const $IDC_SIZEWE = 13
+Global Const $IDC_UPARROW = 14
+Global Const $IDC_WAIT = 15
+Global Const $SD_LOGOFF = 0
+Global Const $SD_SHUTDOWN = 1
+Global Const $SD_REBOOT = 2
+Global Const $SD_FORCE = 4
+Global Const $SD_POWERDOWN = 8
+Global Const $PROCESS_TERMINATE = 1
+Global Const $PROCESS_CREATE_THREAD = 2
+Global Const $PROCESS_SET_SESSIONID = 4
+Global Const $PROCESS_VM_OPERATION = 8
+Global Const $PROCESS_VM_READ = 16
+Global Const $PROCESS_VM_WRITE = 32
+Global Const $PROCESS_DUP_HANDLE = 64
+Global Const $PROCESS_CREATE_PROCESS = 128
+Global Const $PROCESS_SET_QUOTA = 256
+Global Const $PROCESS_SET_INFORMATION = 512
+Global Const $PROCESS_QUERY_INFORMATION = 1024
+Global Const $PROCESS_SUSPEND_RESUME = 2048
+Global Const $PROCESS_ALL_ACCESS = 2035711
+Global Const $STR_NOCASESENSE = 0
+Global Const $STR_CASESENSE = 1
+Global Const $STR_STRIPLEADING = 1
+Global Const $STR_STRIPTRAILING = 2
+Global Const $STR_STRIPSPACES = 4
+Global Const $STR_STRIPALL = 8
+Global Const $TOKEN_ASSIGN_PRIMARY = 1
+Global Const $TOKEN_DUPLICATE = 2
+Global Const $TOKEN_IMPERSONATE = 4
+Global Const $TOKEN_QUERY = 8
+Global Const $TOKEN_QUERY_SOURCE = 16
+Global Const $TOKEN_ADJUST_PRIVILEGES = 32
+Global Const $TOKEN_ADJUST_GROUPS = 64
+Global Const $TOKEN_ADJUST_DEFAULT = 128
+Global Const $TOKEN_ADJUST_SESSIONID = 256
+Global Const $TRAY_ITEM_EXIT = 3
+Global Const $TRAY_ITEM_PAUSE = 4
+Global Const $TRAY_ITEM_FIRST = 7
+Global Const $TRAY_CHECKED = 1
+Global Const $TRAY_UNCHECKED = 4
+Global Const $TRAY_ENABLE = 64
+Global Const $TRAY_DISABLE = 128
+Global Const $TRAY_FOCUS = 256
+Global Const $TRAY_DEFAULT = 512
+Global Const $TRAY_EVENT_SHOWICON = -3
+Global Const $TRAY_EVENT_HIDEICON = -4
+Global Const $TRAY_EVENT_FLASHICON = -5
+Global Const $TRAY_EVENT_NOFLASHICON = -6
+Global Const $TRAY_EVENT_PRIMARYDOWN = -7
+Global Const $TRAY_EVENT_PRIMARYUP = -8
+Global Const $TRAY_EVENT_SECONDARYDOWN = -9
+Global Const $TRAY_EVENT_SECONDARYUP = -10
+Global Const $TRAY_EVENT_MOUSEOVER = -11
+Global Const $TRAY_EVENT_MOUSEOUT = -12
+Global Const $TRAY_EVENT_PRIMARYDOUBLE = -13
+Global Const $TRAY_EVENT_SECONDARYDOUBLE = -14
+Global Const $STDIN_CHILD = 1
+Global Const $STDOUT_CHILD = 2
+Global Const $STDERR_CHILD = 4
+Global Const $COLOR_AQUA = 65535
+Global Const $COLOR_BLACK = 0
+Global Const $COLOR_BLUE = 255
+Global Const $COLOR_CREAM = 16776176
+Global Const $COLOR_FUCHSIA = 16711935
+Global Const $COLOR_GRAY = 8421504
+Global Const $COLOR_GREEN = 32768
+Global Const $COLOR_LIME = 65280
+Global Const $COLOR_MAROON = 9116770
+Global Const $COLOR_MEDBLUE = 708
+Global Const $COLOR_MEDGRAY = 10526884
+Global Const $COLOR_MONEYGREEN = 12639424
+Global Const $COLOR_NAVY = 128
+Global Const $COLOR_OLIVE = 8421376
+Global Const $COLOR_PURPLE = 8388736
+Global Const $COLOR_RED = 16711680
+Global Const $COLOR_SILVER = 12632256
+Global Const $COLOR_SKYBLUE = 10930928
+Global Const $COLOR_TEAL = 32896
+Global Const $COLOR_WHITE = 16777215
+Global Const $COLOR_YELLOW = 16776960
+Global Const $CLR_NONE = -1
+Global Const $CLR_AQUA = 16776960
+Global Const $CLR_BLACK = 0
+Global Const $CLR_BLUE = 16711680
+Global Const $CLR_CREAM = 15793151
+Global Const $CLR_DEFAULT = -16777216
+Global Const $CLR_FUCHSIA = 16711935
+Global Const $CLR_GRAY = 8421504
+Global Const $CLR_GREEN = 32768
+Global Const $CLR_LIME = 65280
+Global Const $CLR_MAROON = 6429835
+Global Const $CLR_MEDBLUE = 12845568
+Global Const $CLR_MEDGRAY = 10789024
+Global Const $CLR_MONEYGREEN = 12639424
+Global Const $CLR_NAVY = 8388608
+Global Const $CLR_OLIVE = 32896
+Global Const $CLR_PURPLE = 8388736
+Global Const $CLR_RED = 255
+Global Const $CLR_SILVER = 12632256
+Global Const $CLR_SKYBLUE = 15780518
+Global Const $CLR_TEAL = 8421376
+Global Const $CLR_WHITE = 16777215
+Global Const $CLR_YELLOW = 65535
+Global Const $CC_ANYCOLOR = 256
+Global Const $CC_FULLOPEN = 2
+Global Const $CC_RGBINIT = 1
+Global Const $REG_NONE = 0
+Global Const $REG_SZ = 1
+Global Const $REG_EXPAND_SZ = 2
+Global Const $REG_BINARY = 3
+Global Const $REG_DWORD = 4
+Global Const $REG_DWORD_BIG_ENDIAN = 5
+Global Const $REG_LINK = 6
+Global Const $REG_MULTI_SZ = 7
+Global Const $REG_RESOURCE_LIST = 8
+Global Const $REG_FULL_RESOURCE_DESCRIPTOR = 9
+Global Const $REG_RESOURCE_REQUIREMENTS_LIST = 10
+Global Const $SWP_NOSIZE = 1
+Global Const $SWP_NOMOVE = 2
+Global Const $SWP_NOZORDER = 4
+Global Const $SWP_NOREDRAW = 8
+Global Const $SWP_NOACTIVATE = 16
+Global Const $SWP_FRAMECHANGED = 32
+Global Const $SWP_DRAWFRAME = 32
+Global Const $SWP_SHOWWINDOW = 64
+Global Const $SWP_HIDEWINDOW = 128
+Global Const $SWP_NOCOPYBITS = 256
+Global Const $SWP_NOOWNERZORDER = 512
+Global Const $SWP_NOREPOSITION = 512
+Global Const $SWP_NOSENDCHANGING = 1024
+Global Const $SWP_DEFERERASE = 8192
+Global Const $SWP_ASYNCWINDOWPOS = 16384
+Global Const $FW_DONTCARE = 0
+Global Const $FW_THIN = 100
+Global Const $FW_EXTRALIGHT = 200
+Global Const $FW_ULTRALIGHT = 200
+Global Const $FW_LIGHT = 300
+Global Const $FW_NORMAL = 400
+Global Const $FW_REGULAR = 400
+Global Const $FW_MEDIUM = 500
+Global Const $FW_SEMIBOLD = 600
+Global Const $FW_DEMIBOLD = 600
+Global Const $FW_BOLD = 700
+Global Const $FW_EXTRABOLD = 800
+Global Const $FW_ULTRABOLD = 800
+Global Const $FW_HEAVY = 900
+Global Const $FW_BLACK = 900
+Global Const $PROOF_QUALITY = 2
+Global Const $CF_EFFECTS = 256
+Global Const $CF_PRINTERFONTS = 2
+Global Const $CF_SCREENFONTS = 1
+Global Const $CF_NOSCRIPTSEL = 8388608
+Global Const $CF_INITTOLOGFONTSTRUCT = 64
+Global Const $DEFAULT_PITCH = 0
+Global Const $FF_DONTCARE = 0
+Global Const $LOGPIXELSX = 88
+Global Const $LOGPIXELSY = 90
+Global Const $SB_THUMBPOSITION = 4
+Global Const $SB_THUMBTRACK = 5
+Global Const $LANG_AFRIKAANS = 54
+Global Const $LANG_ALBANIAN = 28
+Global Const $LANG_ARABIC = 1
+Global Const $LANG_ARMENIAN = 43
+Global Const $LANG_ASSAMESE = 77
+Global Const $LANG_AZERI = 44
+Global Const $LANG_BASQUE = 45
+Global Const $LANG_BELARUSIAN = 35
+Global Const $LANG_BENGALI = 69
+Global Const $LANG_BULGARIAN = 2
+Global Const $LANG_CATALAN = 3
+Global Const $LANG_CHINESE = 4
+Global Const $LANG_CROATIAN = 26
+Global Const $LANG_CZECH = 5
+Global Const $LANG_DANISH = 6
+Global Const $LANG_DUTCH = 19
+Global Const $LANG_ENGLISH = 9
+Global Const $LANG_ESTONIAN = 37
+Global Const $LANG_FAEROESE = 56
+Global Const $LANG_FARSI = 41
+Global Const $LANG_FINNISH = 11
+Global Const $LANG_FRENCH = 12
+Global Const $LANG_GEORGIAN = 55
+Global Const $LANG_GERMAN = 7
+Global Const $LANG_GREEK = 8
+Global Const $LANG_GUJARATI = 71
+Global Const $LANG_HEBREW = 13
+Global Const $LANG_HINDI = 57
+Global Const $LANG_HUNGARIAN = 14
+Global Const $LANG_ICELANDIC = 15
+Global Const $LANG_INDONESIAN = 33
+Global Const $LANG_ITALIAN = 16
+Global Const $LANG_JAPANESE = 17
+Global Const $LANG_KANNADA = 75
+Global Const $LANG_KASHMIRI = 96
+Global Const $LANG_KAZAK = 63
+Global Const $LANG_KONKANI = 87
+Global Const $LANG_KOREAN = 18
+Global Const $LANG_LATVIAN = 38
+Global Const $LANG_LITHUANIAN = 39
+Global Const $LANG_MACEDONIAN = 47
+Global Const $LANG_MALAY = 62
+Global Const $LANG_MALAYALAM = 76
+Global Const $LANG_MANIPURI = 88
+Global Const $LANG_MARATHI = 78
+Global Const $LANG_NEPALI = 97
+Global Const $LANG_NEUTRAL = 0
+Global Const $LANG_NORWEGIAN = 20
+Global Const $LANG_ORIYA = 72
+Global Const $LANG_POLISH = 21
+Global Const $LANG_PORTUGUESE = 22
+Global Const $LANG_PUNJABI = 70
+Global Const $LANG_ROMANIAN = 24
+Global Const $LANG_RUSSIAN = 25
+Global Const $LANG_SANSKRIT = 79
+Global Const $LANG_SERBIAN = 26
+Global Const $LANG_SINDHI = 89
+Global Const $LANG_SLOVAK = 27
+Global Const $LANG_SLOVENIAN = 36
+Global Const $LANG_SPANISH = 10
+Global Const $LANG_SWAHILI = 65
+Global Const $LANG_SWEDISH = 29
+Global Const $LANG_TAMIL = 73
+Global Const $LANG_TATAR = 68
+Global Const $LANG_TELUGU = 74
+Global Const $LANG_THAI = 30
+Global Const $LANG_TURKISH = 31
+Global Const $LANG_UKRAINIAN = 34
+Global Const $LANG_URDU = 32
+Global Const $LANG_UZBEK = 67
+Global Const $LANG_VIETNAMESE = 42
+Global Const $SUBLANG_ARABIC_ALGERIA = 5
+Global Const $SUBLANG_ARABIC_BAHRAIN = 15
+Global Const $SUBLANG_ARABIC_EGYPT = 3
+Global Const $SUBLANG_ARABIC_IRAQ = 2
+Global Const $SUBLANG_ARABIC_JORDAN = 11
+Global Const $SUBLANG_ARABIC_KUWAIT = 13
+Global Const $SUBLANG_ARABIC_LEBANON = 12
+Global Const $SUBLANG_ARABIC_LIBYA = 4
+Global Const $SUBLANG_ARABIC_MOROCCO = 6
+Global Const $SUBLANG_ARABIC_OMAN = 8
+Global Const $SUBLANG_ARABIC_QATAR = 16
+Global Const $SUBLANG_ARABIC_SAUDI_ARABIA = 1
+Global Const $SUBLANG_ARABIC_SYRIA = 10
+Global Const $SUBLANG_ARABIC_TUNISIA = 7
+Global Const $SUBLANG_ARABIC_UAE = 14
+Global Const $SUBLANG_ARABIC_YEMEN = 9
+Global Const $SUBLANG_AZERI_CYRILLIC = 2
+Global Const $SUBLANG_AZERI_LATIN = 1
+Global Const $SUBLANG_CHINESE_HONGKONG = 3
+Global Const $SUBLANG_CHINESE_MACAU = 5
+Global Const $SUBLANG_CHINESE_SIMPLIFIED = 2
+Global Const $SUBLANG_CHINESE_SINGAPORE = 4
+Global Const $SUBLANG_CHINESE_TRADITIONAL = 1
+Global Const $SUBLANG_DEFAULT = 1
+Global Const $SUBLANG_DUTCH = 1
+Global Const $SUBLANG_DUTCH_BELGIAN = 2
+Global Const $SUBLANG_ENGLISH_AUS = 3
+Global Const $SUBLANG_ENGLISH_BELIZE = 10
+Global Const $SUBLANG_ENGLISH_CAN = 4
+Global Const $SUBLANG_ENGLISH_CARIBBEAN = 9
+Global Const $SUBLANG_ENGLISH_EIRE = 6
+Global Const $SUBLANG_ENGLISH_JAMAICA = 8
+Global Const $SUBLANG_ENGLISH_NZ = 5
+Global Const $SUBLANG_ENGLISH_PHILIPPINES = 13
+Global Const $SUBLANG_ENGLISH_SOUTH_AFRICA = 7
+Global Const $SUBLANG_ENGLISH_TRINIDAD = 11
+Global Const $SUBLANG_ENGLISH_UK = 2
+Global Const $SUBLANG_ENGLISH_US = 1
+Global Const $SUBLANG_ENGLISH_ZIMBABWE = 12
+Global Const $SUBLANG_FRENCH = 1
+Global Const $SUBLANG_FRENCH_BELGIAN = 2
+Global Const $SUBLANG_FRENCH_CANADIAN = 3
+Global Const $SUBLANG_FRENCH_LUXEMBOURG = 5
+Global Const $SUBLANG_FRENCH_MONACO = 6
+Global Const $SUBLANG_FRENCH_SWISS = 4
+Global Const $SUBLANG_GERMAN = 1
+Global Const $SUBLANG_GERMAN_AUSTRIAN = 3
+Global Const $SUBLANG_GERMAN_LIECHTENSTEIN = 5
+Global Const $SUBLANG_GERMAN_LUXEMBOURG = 4
+Global Const $SUBLANG_GERMAN_SWISS = 2
+Global Const $SUBLANG_ITALIAN = 1
+Global Const $SUBLANG_ITALIAN_SWISS = 2
+Global Const $SUBLANG_KASHMIRI_INDIA = 2
+Global Const $SUBLANG_KOREAN = 1
+Global Const $SUBLANG_LITHUANIAN = 1
+Global Const $SUBLANG_MALAY_BRUNEI_DARUSSALAM = 2
+Global Const $SUBLANG_MALAY_MALAYSIA = 1
+Global Const $SUBLANG_NEPALI_INDIA = 2
+Global Const $SUBLANG_NEUTRAL = 0
+Global Const $SUBLANG_NORWEGIAN_BOKMAL = 1
+Global Const $SUBLANG_NORWEGIAN_NYNORSK = 2
+Global Const $SUBLANG_PORTUGUESE = 2
+Global Const $SUBLANG_PORTUGUESE_BRAZILIAN = 1
+Global Const $SUBLANG_SERBIAN_CYRILLIC = 3
+Global Const $SUBLANG_SERBIAN_LATIN = 2
+Global Const $SUBLANG_SPANISH = 1
+Global Const $SUBLANG_SPANISH_ARGENTINA = 11
+Global Const $SUBLANG_SPANISH_BOLIVIA = 16
+Global Const $SUBLANG_SPANISH_CHILE = 13
+Global Const $SUBLANG_SPANISH_COLOMBIA = 9
+Global Const $SUBLANG_SPANISH_COSTA_RICA = 5
+Global Const $SUBLANG_SPANISH_DOMINICAN_REPUBLIC = 7
+Global Const $SUBLANG_SPANISH_ECUADOR = 12
+Global Const $SUBLANG_SPANISH_EL_SALVADOR = 17
+Global Const $SUBLANG_SPANISH_GUATEMALA = 4
+Global Const $SUBLANG_SPANISH_HONDURAS = 18
+Global Const $SUBLANG_SPANISH_MEXICAN = 2
+Global Const $SUBLANG_SPANISH_MODERN = 3
+Global Const $SUBLANG_SPANISH_NICARAGUA = 19
+Global Const $SUBLANG_SPANISH_PANAMA = 6
+Global Const $SUBLANG_SPANISH_PARAGUAY = 15
+Global Const $SUBLANG_SPANISH_PERU = 10
+Global Const $SUBLANG_SPANISH_PUERTO_RICO = 20
+Global Const $SUBLANG_SPANISH_URUGUAY = 14
+Global Const $SUBLANG_SPANISH_VENEZUELA = 8
+Global Const $SUBLANG_SWEDISH = 1
+Global Const $SUBLANG_SWEDISH_FINLAND = 2
+Global Const $SUBLANG_SYS_DEFAULT = 2
+Global Const $SUBLANG_URDU_INDIA = 2
+Global Const $SUBLANG_URDU_PAKISTAN = 1
+Global Const $SUBLANG_UZBEK_CYRILLIC = 2
+Global Const $SORT_DEFAULT = 0
+Global Const $SORT_JAPANESE_XJIS = 0
+Global Const $SORT_JAPANESE_UNICODE = 1
+Global Const $SORT_CHINESE_BIG5 = 0
+Global Const $SORT_CHINESE_PRCP = 0
+Global Const $SORT_CHINESE_UNICODE = 1
+Global Const $SORT_CHINESE_PRC = 2
+Global Const $SORT_KOREAN_KSC = 0
+Global Const $SORT_KOREAN_UNICODE = 1
+Global Const $SORT_GERMAN_PHONE_BOOK = 1
+Global Const $SORT_HUNGARIAN_DEFAULT = 0
+Global Const $SORT_HUNGARIAN_TECHNICAL = 1
+Global Const $SORT_GEORGIAN_TRADITIONAL = 0
+Global Const $SORT_GEORGIAN_MODERN = 1
+Global Const $CB_ERR = -1
+Global Const $CB_ERRATTRIBUTE = -3
+Global Const $CB_ERRREQUIRED = -4
+Global Const $CB_ERRSPACE = -2
+Global Const $CB_OKAY = 0
+Global Const $STATE_SYSTEM_INVISIBLE = 32768
+Global Const $STATE_SYSTEM_PRESSED = 8
+Global Const $CB_DDL_ARCHIVE = 32
+Global Const $CB_DDL_DIRECTORY = 16
+Global Const $CB_DDL_DRIVES = 16384
+Global Const $CB_DDL_EXCLUSIVE = 32768
+Global Const $CB_DDL_HIDDEN = 2
+Global Const $CB_DDL_READONLY = 1
+Global Const $CB_DDL_READWRITE = 0
+Global Const $CB_DDL_SYSTEM = 4
+Global Const $CBS_AUTOHSCROLL = 64
+Global Const $CBS_DISABLENOSCROLL = 2048
+Global Const $CBS_DROPDOWN = 2
+Global Const $CBS_DROPDOWNLIST = 3
+Global Const $CBS_HASSTRINGS = 512
+Global Const $CBS_LOWERCASE = 16384
+Global Const $CBS_NOINTEGRALHEIGHT = 1024
+Global Const $CBS_OEMCONVERT = 128
+Global Const $CBS_OWNERDRAWFIXED = 16
+Global Const $CBS_OWNERDRAWVARIABLE = 32
+Global Const $CBS_SIMPLE = 1
+Global Const $CBS_SORT = 256
+Global Const $CBS_UPPERCASE = 8192
+Global Const $CB_ADDSTRING = 323
+Global Const $CB_DELETESTRING = 324
+Global Const $CB_DIR = 325
+Global Const $CB_FINDSTRING = 332
+Global Const $CB_FINDSTRINGEXACT = 344
+Global Const $CB_GETCOMBOBOXINFO = 356
+Global Const $CB_GETCOUNT = 326
+Global Const $CB_GETCURSEL = 327
+Global Const $CB_GETDROPPEDCONTROLRECT = 338
+Global Const $CB_GETDROPPEDSTATE = 343
+Global Const $CB_GETDROPPEDWIDTH = 351
+Global Const $CB_GETEDITSEL = 320
+Global Const $CB_GETEXTENDEDUI = 342
+Global Const $CB_GETHORIZONTALEXTENT = 349
+Global Const $CB_GETITEMDATA = 336
+Global Const $CB_GETITEMHEIGHT = 340
+Global Const $CB_GETLBTEXT = 328
+Global Const $CB_GETLBTEXTLEN = 329
+Global Const $CB_GETLOCALE = 346
+Global Const $CB_GETMINVISIBLE = 5890
+Global Const $CB_GETTOPINDEX = 347
+Global Const $CB_INITSTORAGE = 353
+Global Const $CB_LIMITTEXT = 321
+Global Const $CB_RESETCONTENT = 331
+Global Const $CB_INSERTSTRING = 330
+Global Const $CB_SELECTSTRING = 333
+Global Const $CB_SETCURSEL = 334
+Global Const $CB_SETDROPPEDWIDTH = 352
+Global Const $CB_SETEDITSEL = 322
+Global Const $CB_SETEXTENDEDUI = 341
+Global Const $CB_SETHORIZONTALEXTENT = 350
+Global Const $CB_SETITEMDATA = 337
+Global Const $CB_SETITEMHEIGHT = 339
+Global Const $CB_SETLOCALE = 21
+Global Const $CB_SETMINVISIBLE = 5889
+Global Const $CB_SETTOPINDEX = 348
+Global Const $CB_SHOWDROPDOWN = 335
+Global Const $CBN_CLOSEUP = 8
+Global Const $CBN_DBLCLK = 2
+Global Const $CBN_DROPDOWN = 7
+Global Const $CBN_EDITCHANGE = 5
+Global Const $CBN_EDITUPDATE = 6
+Global Const $CBN_ERRSPACE = (-1)
+Global Const $CBN_KILLFOCUS = 4
+Global Const $CBN_SELCHANGE = 1
+Global Const $CBN_SELENDCANCEL = 10
+Global Const $CBN_SELENDOK = 9
+Global Const $CBN_SETFOCUS = 3
+Global Const $CBES_EX_CASESENSITIVE = 16
+Global Const $CBES_EX_NOEDITIMAGE = 1
+Global Const $CBES_EX_NOEDITIMAGEINDENT = 2
+Global Const $CBES_EX_NOSIZELIMIT = 8
+Global Const $CBES_EX_PATHWORDBREAKPROC = 4
+Global Const $CBEM_DELETEITEM = $CB_DELETESTRING
+Global Const $CBEM_GETCOMBOCONTROL = ($WM_USER + 6)
+Global Const $CBEM_GETEDITCONTROL = ($WM_USER + 7)
+Global Const $CBEM_GETEXSTYLE = ($WM_USER + 9)
+Global Const $CBEM_GETEXTENDEDSTYLE = ($WM_USER + 9)
+Global Const $CBEM_GETIMAGELIST = ($WM_USER + 3)
+Global Const $CBEM_GETITEMA = ($WM_USER + 4)
+Global Const $CBEM_GETITEMW = ($WM_USER + 13)
+Global Const $CBEM_GETUNICODEFORMAT = $CCM_GETUNICODEFORMAT
+Global Const $CBEM_HASEDITCHANGED = ($WM_USER + 10)
+Global Const $CBEM_INSERTITEMA = ($WM_USER + 1)
+Global Const $CBEM_INSERTITEMW = ($WM_USER + 11)
+Global Const $CBEM_SETEXSTYLE = ($WM_USER + 8)
+Global Const $CBEM_SETEXTENDEDSTYLE = ($WM_USER + 14)
+Global Const $CBEM_SETIMAGELIST = ($WM_USER + 2)
+Global Const $CBEM_SETITEMA = ($WM_USER + 5)
+Global Const $CBEM_SETITEMW = ($WM_USER + 12)
+Global Const $CBEM_SETUNICODEFORMAT = $CCM_SETUNICODEFORMAT
+Global Const $CBEM_SETWINDOWTHEME = $CCM_SETWINDOWTHEME
+Global Const $CBEN_FIRST = (-800)
+Global Const $CBEN_LAST = (-830)
+Global Const $CBEN_BEGINEDIT = ($CBEN_FIRST - 4)
+Global Const $CBEN_DELETEITEM = ($CBEN_FIRST - 2)
+Global Const $CBEN_DRAGBEGINA = ($CBEN_FIRST - 8)
+Global Const $CBEN_DRAGBEGINW = ($CBEN_FIRST - 9)
+Global Const $CBEN_ENDEDITA = ($CBEN_FIRST - 5)
+Global Const $CBEN_ENDEDITW = ($CBEN_FIRST - 6)
+Global Const $CBEN_GETDISPINFO = ($CBEN_FIRST - 0)
+Global Const $CBEN_GETDISPINFOA = ($CBEN_FIRST - 0)
+Global Const $CBEN_GETDISPINFOW = ($CBEN_FIRST - 7)
+Global Const $CBEN_INSERTITEM = ($CBEN_FIRST - 1)
+Global Const $CBEIF_DI_SETITEM = 268435456
+Global Const $CBEIF_IMAGE = 2
+Global Const $CBEIF_INDENT = 16
+Global Const $CBEIF_LPARAM = 32
+Global Const $CBEIF_OVERLAY = 8
+Global Const $CBEIF_SELECTEDIMAGE = 4
+Global Const $CBEIF_TEXT = 1
+Global Const $DTS_SHORTDATEFORMAT = 0
+Global Const $DTS_UPDOWN = 1
+Global Const $DTS_SHOWNONE = 2
+Global Const $DTS_LONGDATEFORMAT = 4
+Global Const $DTS_TIMEFORMAT = 9
+Global Const $DTS_RIGHTALIGN = 32
+Global Const $DTS_SHORTDATECENTFORMAT = 12
+Global Const $DTS_APPCANPARSE = 16
+Global Const $GDT_ERROR = -1
+Global Const $GDT_VALID = 0
+Global Const $GDT_NONE = 1
+Global Const $GDTR_MIN = 1
+Global Const $GDTR_MAX = 2
+Global Const $MCHT_NOWHERE = 0
+Global Const $MCHT_TITLE = 65536
+Global Const $MCHT_CALENDAR = 131072
+Global Const $MCHT_TODAYLINK = 196608
+Global Const $MCHT_NEXT = 16777216
+Global Const $MCHT_PREV = 33554432
+Global Const $MCHT_TITLEBK = 65536
+Global Const $MCHT_TITLEMONTH = 65537
+Global Const $MCHT_TITLEYEAR = 65538
+Global Const $MCHT_TITLEBTNNEXT = 16842755
+Global Const $MCHT_TITLEBTNPREV = 33619971
+Global Const $MCHT_CALENDARBK = 131072
+Global Const $MCHT_CALENDARDATE = 131073
+Global Const $MCHT_CALENDARDAY = 131074
+Global Const $MCHT_CALENDARWEEKNUM = 131075
+Global Const $MCHT_CALENDARDATENEXT = 16908288
+Global Const $MCHT_CALENDARDATEPREV = 33685504
+Global Const $MCS_DAYSTATE = 1
+Global Const $MCS_MULTISELECT = 2
+Global Const $MCS_WEEKNUMBERS = 4
+Global Const $MCS_NOTODAYCIRCLE = 8
+Global Const $MCS_NOTODAY = 16
+Global Const $MCM_FIRST = 4096
+Global Const $MCM_GETCURSEL = $MCM_FIRST + 1
+Global Const $MCM_GETCOLOR = ($MCM_FIRST + 11)
+Global Const $MCM_GETFIRSTDAYOFWEEK = ($MCM_FIRST + 16)
+Global Const $MCM_GETMAXSELCOUNT = ($MCM_FIRST + 3)
+Global Const $MCM_GETMAXTODAYWIDTH = ($MCM_FIRST + 21)
+Global Const $MCM_GETMINREQRECT = ($MCM_FIRST + 9)
+Global Const $MCM_GETMONTHDELTA = ($MCM_FIRST + 19)
+Global Const $MCM_GETMONTHRANGE = $MCM_FIRST + 7
+Global Const $MCM_GETRANGE = $MCM_FIRST + 17
+Global Const $MCM_GETSELRANGE = $MCM_FIRST + 5
+Global Const $MCM_GETTODAY = $MCM_FIRST + 13
+Global Const $MCM_GETUNICODEFORMAT = $CCM_GETUNICODEFORMAT
+Global Const $MCM_HITTEST = $MCM_FIRST + 14
+Global Const $MCM_SETCOLOR = ($MCM_FIRST + 10)
+Global Const $MCM_SETCURSEL = $MCM_FIRST + 2
+Global Const $MCM_SETDAYSTATE = $MCM_FIRST + 8
+Global Const $MCM_SETFIRSTDAYOFWEEK = ($MCM_FIRST + 15)
+Global Const $MCM_SETSELRANGE = $MCM_FIRST + 6
+Global Const $MCM_SETMAXSELCOUNT = ($MCM_FIRST + 4)
+Global Const $MCM_SETMONTHDELTA = ($MCM_FIRST + 20)
+Global Const $MCM_SETRANGE = $MCM_FIRST + 18
+Global Const $MCM_SETTODAY = $MCM_FIRST + 12
+Global Const $MCM_SETUNICODEFORMAT = $CCM_SETUNICODEFORMAT
+Global Const $MCN_SELCHANGE = -749
+Global Const $MCN_GETDAYSTATE = -747
+Global Const $MCN_SELECT = -746
+Global Const $MCSC_BACKGROUND = 0
+Global Const $MCSC_MONTHBK = 4
+Global Const $MCSC_TEXT = 1
+Global Const $MCSC_TITLEBK = 2
+Global Const $MCSC_TITLETEXT = 3
+Global Const $MCSC_TRAILINGTEXT = 5
+Global Const $DTM_FIRST = 4096
+Global Const $DTM_GETSYSTEMTIME = $DTM_FIRST + 1
+Global Const $DTM_SETSYSTEMTIME = $DTM_FIRST + 2
+Global Const $DTM_GETRANGE = $DTM_FIRST + 3
+Global Const $DTM_SETRANGE = $DTM_FIRST + 4
+Global Const $DTM_SETFORMAT = $DTM_FIRST + 5
+Global Const $DTM_SETMCCOLOR = $DTM_FIRST + 6
+Global Const $DTM_GETMCCOLOR = $DTM_FIRST + 7
+Global Const $DTM_GETMONTHCAL = $DTM_FIRST + 8
+Global Const $DTM_SETMCFONT = $DTM_FIRST + 9
+Global Const $DTM_GETMCFONT = $DTM_FIRST + 10
+Global Const $DTN_DATETIMECHANGE = -759
+Global Const $DTN_USERSTRING = -758
+Global Const $DTN_WMKEYDOWN = -757
+Global Const $DTN_FORMAT = -756
+Global Const $DTN_FORMATQUERY = -755
+Global Const $DTN_DROPDOWN = -754
+Global Const $DTN_CLOSEUP = -753
+Global Const $DTN_USERSTRINGW = -745
+Global Const $DTN_WMKEYDOWNW = -744
+Global Const $DTN_FORMATW = -743
+Global Const $DTN_FORMATQUERYW = -742
+Global Const $ES_LEFT = 0
+Global Const $ES_CENTER = 1
+Global Const $ES_RIGHT = 2
+Global Const $ES_MULTILINE = 4
+Global Const $ES_UPPERCASE = 8
+Global Const $ES_LOWERCASE = 16
+Global Const $ES_PASSWORD = 32
+Global Const $ES_AUTOVSCROLL = 64
+Global Const $ES_AUTOHSCROLL = 128
+Global Const $ES_NOHIDESEL = 256
+Global Const $ES_OEMCONVERT = 1024
+Global Const $ES_READONLY = 2048
+Global Const $ES_WANTRETURN = 4096
+Global Const $ES_NUMBER = 8192
+Global Const $EC_ERR = -1
+Global Const $ECM_FIRST = 5376
+Global Const $EM_CANUNDO = 198
+Global Const $EM_CHARFROMPOS = 215
+Global Const $EM_EMPTYUNDOBUFFER = 205
+Global Const $EM_FMTLINES = 200
+Global Const $EM_GETFIRSTVISIBLELINE = 206
+Global Const $EM_GETHANDLE = 189
+Global Const $EM_GETIMESTATUS = 217
+Global Const $EM_GETLIMITTEXT = 213
+Global Const $EM_GETLINE = 196
+Global Const $EM_GETLINECOUNT = 186
+Global Const $EM_GETMARGINS = 212
+Global Const $EM_GETMODIFY = 184
+Global Const $EM_GETPASSWORDCHAR = 210
+Global Const $EM_GETRECT = 178
+Global Const $EM_GETSEL = 176
+Global Const $EM_GETTHUMB = 190
+Global Const $EM_GETWORDBREAKPROC = 209
+Global Const $EM_LIMITTEXT = 197
+Global Const $EM_LINEFROMCHAR = 201
+Global Const $EM_LINEINDEX = 187
+Global Const $EM_LINELENGTH = 193
+Global Const $EM_LINESCROLL = 182
+Global Const $EM_POSFROMCHAR = 214
+Global Const $EM_REPLACESEL = 194
+Global Const $EM_SCROLL = 181
+Global Const $EM_SCROLLCARET = 183
+Global Const $EM_SETHANDLE = 188
+Global Const $EM_SETIMESTATUS = 216
+Global Const $EM_SETLIMITTEXT = $EM_LIMITTEXT
+Global Const $EM_SETMARGINS = 211
+Global Const $EM_SETMODIFY = 185
+Global Const $EM_SETREADONLY = 207
+Global Const $EM_SETRECT = 179
+Global Const $EM_SETRECTNP = 180
+Global Const $EM_SETSEL = 177
+Global Const $EM_SETTABSTOPS = 203
+Global Const $EM_SHOWBALLOONTIP = ($ECM_FIRST + 3)
+Global Const $EM_UNDO = 199
+Global Const $EM_SETWORDBREAKPROC = 208
+Global Const $EC_LEFTMARGIN = 1
+Global Const $EC_RIGHTMARGIN = 2
+Global Const $EC_USEFONTINFO = 65535
+Global Const $EMSIS_COMPOSITIONSTRING = 1
+Global Const $EIMES_GETCOMPSTRATONCE = 1
+Global Const $EIMES_CANCELCOMPSTRINFOCUS = 2
+Global Const $EIMES_COMPLETECOMPSTRKILLFOCUS = 4
+Global Const $EN_ALIGN_LTR_EC = 1792
+Global Const $EN_ALIGN_RTL_EC = 1793
+Global Const $EN_CHANGE = 768
+Global Const $EN_ERRSPACE = 1280
+Global Const $EN_HSCROLL = 1537
+Global Const $EN_KILLFOCUS = 512
+Global Const $EN_MAXTEXT = 1281
+Global Const $EN_SETFOCUS = 256
+Global Const $EN_UPDATE = 1024
+Global Const $EN_VSCROLL = 1538
+Global Const $TTI_ERROR = 3
+Global Const $TTI_INFO = 1
+Global Const $TTI_NONE = 0
+Global Const $TTI_WARNING = 2
+Global Const $SS_LEFT = 0
+Global Const $SS_CENTER = 1
+Global Const $SS_RIGHT = 2
+Global Const $SS_ICON = 3
+Global Const $SS_BLACKRECT = 4
+Global Const $SS_GRAYRECT = 5
+Global Const $SS_WHITERECT = 6
+Global Const $SS_BLACKFRAME = 7
+Global Const $SS_GRAYFRAME = 8
+Global Const $SS_WHITEFRAME = 9
+Global Const $SS_SIMPLE = 11
+Global Const $SS_LEFTNOWORDWRAP = 12
+Global Const $SS_BITMAP = 15
+Global Const $SS_ETCHEDHORZ = 16
+Global Const $SS_ETCHEDVERT = 17
+Global Const $SS_ETCHEDFRAME = 18
+Global Const $SS_NOPREFIX = 128
+Global Const $SS_NOTIFY = 256
+Global Const $SS_CENTERIMAGE = 512
+Global Const $SS_RIGHTJUST = 1024
+Global Const $SS_SUNKEN = 4096
+Global Const $LBS_NOTIFY = 1
+Global Const $LBS_SORT = 2
+Global Const $LBS_NOREDRAW = 4
+Global Const $LBS_MULTIPLESEL = 8
+Global Const $LBS_OWNERDRAWFIXED = 16
+Global Const $LBS_OWNERDRAWVARIABLE = 32
+Global Const $LBS_HASSTRINGS = 64
+Global Const $LBS_USETABSTOPS = 128
+Global Const $LBS_NOINTEGRALHEIGHT = 256
+Global Const $LBS_MULTICOLUMN = 512
+Global Const $LBS_WANTKEYBOARDINPUT = 1024
+Global Const $LBS_EXTENDEDSEL = 2048
+Global Const $LBS_DISABLENOSCROLL = 4096
+Global Const $LBS_NODATA = 8192
+Global Const $LBS_NOSEL = 16384
+Global Const $LBS_COMBOBOX = 32768
+Global Const $LBS_STANDARD = 3
+Global Const $LB_ERR = -1
+Global Const $LB_ERRATTRIBUTE = -3
+Global Const $LB_ERRREQUIRED = -4
+Global Const $LB_ERRSPACE = -2
+Global Const $LB_ADDSTRING = 384
+Global Const $LB_INSERTSTRING = 385
+Global Const $LB_DELETESTRING = 386
+Global Const $LB_SELITEMRANGEEX = 387
+Global Const $LB_RESETCONTENT = 388
+Global Const $LB_SETSEL = 389
+Global Const $LB_SETCURSEL = 390
+Global Const $LB_GETSEL = 391
+Global Const $LB_GETCURSEL = 392
+Global Const $LB_GETTEXT = 393
+Global Const $LB_GETTEXTLEN = 394
+Global Const $LB_GETCOUNT = 395
+Global Const $LB_SELECTSTRING = 396
+Global Const $LB_DIR = 397
+Global Const $LB_GETTOPINDEX = 398
+Global Const $LB_FINDSTRING = 399
+Global Const $LB_GETSELCOUNT = 400
+Global Const $LB_GETSELITEMS = 401
+Global Const $LB_SETTABSTOPS = 402
+Global Const $LB_GETHORIZONTALEXTENT = 403
+Global Const $LB_SETHORIZONTALEXTENT = 404
+Global Const $LB_SETCOLUMNWIDTH = 405
+Global Const $LB_ADDFILE = 406
+Global Const $LB_SETTOPINDEX = 407
+Global Const $LB_GETITEMRECT = 408
+Global Const $LB_GETITEMDATA = 409
+Global Const $LB_SETITEMDATA = 410
+Global Const $LB_SELITEMRANGE = 411
+Global Const $LB_SETANCHORINDEX = 412
+Global Const $LB_GETANCHORINDEX = 413
+Global Const $LB_SETCARETINDEX = 414
+Global Const $LB_GETCARETINDEX = 415
+Global Const $LB_SETITEMHEIGHT = 416
+Global Const $LB_GETITEMHEIGHT = 417
+Global Const $LB_FINDSTRINGEXACT = 418
+Global Const $LB_SETLOCALE = 421
+Global Const $LB_GETLOCALE = 422
+Global Const $LB_SETCOUNT = 423
+Global Const $LB_INITSTORAGE = 424
+Global Const $LB_ITEMFROMPOINT = 425
+Global Const $LB_MULTIPLEADDSTRING = 433
+Global Const $LB_GETLISTBOXINFO = 434
+Global Const $LBN_ERRSPACE = -2
+Global Const $LBN_SELCHANGE = 1
+Global Const $LBN_DBLCLK = 2
+Global Const $LBN_SELCANCEL = 3
+Global Const $LBN_SETFOCUS = 4
+Global Const $LBN_KILLFOCUS = 5
+Global Const $LVS_ALIGNLEFT = 2048
+Global Const $LVS_ALIGNMASK = 3072
+Global Const $LVS_ALIGNTOP = 0
+Global Const $LVS_AUTOARRANGE = 256
+Global Const $LVS_DEFAULT = 13
+Global Const $LVS_EDITLABELS = 512
+Global Const $LVS_ICON = 0
+Global Const $LVS_REPORT = 1
+Global Const $LVS_SMALLICON = 2
+Global Const $LVS_LIST = 3
+Global Const $LVS_NOCOLUMNHEADER = 16384
+Global Const $LVS_NOLABELWRAP = 128
+Global Const $LVS_NOSCROLL = 8192
+Global Const $LVS_NOSORTHEADER = 32768
+Global Const $LVS_OWNERDRAWFIXED = 1024
+Global Const $LVS_SHAREIMAGELISTS = 64
+Global Const $LVS_SHOWSELALWAYS = 8
+Global Const $LVS_SINGLESEL = 4
+Global Const $LVS_SORTASCENDING = 16
+Global Const $LVS_SORTDESCENDING = 32
+Global Const $LVS_TYPEMASK = 3
+Global Const $LVS_TYPESTYLEMASK = 64512
+Global Const $LVS_EX_BORDERSELECT = 32768
+Global Const $LVS_EX_CHECKBOXES = 4
+Global Const $LVS_EX_DOUBLEBUFFER = 65536
+Global Const $LVS_EX_FULLROWSELECT = 32
+Global Const $LVS_EX_FLATSB = 256
+Global Const $LVS_EX_GRIDLINES = 1
+Global Const $LVS_EX_HEADERDRAGDROP = 16
+Global Const $LVS_EX_INFOTIP = 1024
+Global Const $LVS_EX_LABELTIP = 16384
+Global Const $LVS_EX_MULTIWORKAREAS = 8192
+Global Const $LVS_EX_ONECLICKACTIVATE = 64
+Global Const $LVS_EX_REGIONAL = 512
+Global Const $LVS_EX_SNAPTOGRID = 524288
+Global Const $LVS_EX_SIMPLESELECT = 1048576
+Global Const $LVS_EX_SUBITEMIMAGES = 2
+Global Const $LVS_EX_TRACKSELECT = 8
+Global Const $LVS_EX_TWOCLICKACTIVATE = 128
+Global Const $LVS_EX_UNDERLINECOLD = 4096
+Global Const $LVS_EX_UNDERLINEHOT = 2048
+Global Const $LV_ERR = -1
+Global Const $LVM_FIRST = 4096
+Global Const $LVBKIF_SOURCE_NONE = 0
+Global Const $LVBKIF_SOURCE_HBITMAP = 1
+Global Const $LVBKIF_SOURCE_URL = 2
+Global Const $LVBKIF_SOURCE_MASK = 3
+Global Const $LVBKIF_STYLE_NORMAL = 0
+Global Const $LVBKIF_STYLE_TILE = 16
+Global Const $LVBKIF_STYLE_MASK = 16
+Global Const $LVBKIF_FLAG_TILEOFFSET = 256
+Global Const $LVBKIF_TYPE_WATERMARK = 268435456
+Global Const $LV_VIEW_DETAILS = $LVS_REPORT
+Global Const $LV_VIEW_ICON = $LVS_ICON
+Global Const $LV_VIEW_LIST = $LVS_LIST
+Global Const $LV_VIEW_SMALLICON = $LVS_SMALLICON
+Global Const $LV_VIEW_TILE = 4
+Global Const $LVA_ALIGNLEFT = 1
+Global Const $LVA_ALIGNTOP = 2
+Global Const $LVA_DEFAULT = 0
+Global Const $LVA_SNAPTOGRID = 5
+Global Const $LVCF_ALLDATA = 63
+Global Const $LVCF_FMT = 1
+Global Const $LVCF_IMAGE = 16
+Global Const $LVCFMT_JUSTIFYMASK = 3
+Global Const $LVCF_TEXT = 4
+Global Const $LVCF_WIDTH = 2
+Global Const $LVCFMT_BITMAP_ON_RIGHT = 4096
+Global Const $LVCFMT_CENTER = 2
+Global Const $LVCFMT_COL_HAS_IMAGES = 32768
+Global Const $LVCFMT_IMAGE = 2048
+Global Const $LVCFMT_LEFT = 0
+Global Const $LVCFMT_RIGHT = 1
+Global Const $LVFI_NEARESTXY = 64
+Global Const $LVFI_PARAM = 1
+Global Const $LVFI_PARTIAL = 8
+Global Const $LVFI_STRING = 2
+Global Const $LVFI_WRAP = 32
+Global Const $LVGA_HEADER_LEFT = 1
+Global Const $LVGA_HEADER_CENTER = 2
+Global Const $LVGA_HEADER_RIGHT = 4
+Global Const $LVGF_ALIGN = 8
+Global Const $LVGF_GROUPID = 16
+Global Const $LVGF_HEADER = 1
+Global Const $LVHT_ABOVE = 8
+Global Const $LVHT_BELOW = 16
+Global Const $LVHT_NOWHERE = 1
+Global Const $LVHT_ONITEMICON = 2
+Global Const $LVHT_ONITEMLABEL = 4
+Global Const $LVHT_ONITEMSTATEICON = 8
+Global Const $LVHT_ONITEM = 14
+Global Const $LVHT_TOLEFT = 64
+Global Const $LVHT_TORIGHT = 32
+Global Const $LVIF_GROUPID = 256
+Global Const $LVIF_IMAGE = 2
+Global Const $LVIF_INDENT = 16
+Global Const $LVIF_PARAM = 4
+Global Const $LVIF_STATE = 8
+Global Const $LVIF_TEXT = 1
+Global Const $LVIM_AFTER = 1
+Global Const $LVIR_BOUNDS = 0
+Global Const $LVIR_ICON = 1
+Global Const $LVIS_CUT = 4
+Global Const $LVIS_DROPHILITED = 8
+Global Const $LVIS_FOCUSED = 1
+Global Const $LVIS_OVERLAYMASK = 3840
+Global Const $LVIS_SELECTED = 2
+Global Const $LVIS_STATEIMAGEMASK = 61440
+Global Const $LVM_APPROXIMATEVIEWRECT = ($LVM_FIRST + 64)
+Global Const $LVM_ARRANGE = ($LVM_FIRST + 22)
+Global Const $LVM_CANCELEDITLABEL = ($LVM_FIRST + 179)
+Global Const $LVM_CREATEDRAGIMAGE = ($LVM_FIRST + 33)
+Global Const $LVM_DELETECOLUMN = ($LVM_FIRST + 28)
+Global Const $LVM_DELETEALLITEMS = ($LVM_FIRST + 9)
+Global Const $LVM_DELETEITEM = ($LVM_FIRST + 8)
+Global Const $LVM_EDITLABELA = ($LVM_FIRST + 23)
+Global Const $LVM_EDITLABELW = ($LVM_FIRST + 118)
+Global Const $LVM_EDITLABEL = $LVM_EDITLABELA
+Global Const $LVM_ENABLEGROUPVIEW = ($LVM_FIRST + 157)
+Global Const $LVM_ENSUREVISIBLE = ($LVM_FIRST + 19)
+Global Const $LVM_FINDITEM = ($LVM_FIRST + 13)
+Global Const $LVM_GETBKCOLOR = ($LVM_FIRST + 0)
+Global Const $LVM_GETBKIMAGEA = ($LVM_FIRST + 69)
+Global Const $LVM_GETBKIMAGEW = ($LVM_FIRST + 139)
+Global Const $LVM_GETCALLBACKMASK = ($LVM_FIRST + 10)
+Global Const $LVM_GETCOLUMNA = ($LVM_FIRST + 25)
+Global Const $LVM_GETCOLUMNW = ($LVM_FIRST + 95)
+Global Const $LVM_GETCOLUMNORDERARRAY = ($LVM_FIRST + 59)
+Global Const $LVM_GETCOLUMNWIDTH = ($LVM_FIRST + 29)
+Global Const $LVM_GETCOUNTPERPAGE = ($LVM_FIRST + 40)
+Global Const $LVM_GETEDITCONTROL = ($LVM_FIRST + 24)
+Global Const $LVM_GETEXTENDEDLISTVIEWSTYLE = ($LVM_FIRST + 55)
+Global Const $LVM_GETGROUPINFO = ($LVM_FIRST + 149)
+Global Const $LVM_GETHEADER = ($LVM_FIRST + 31)
+Global Const $LVM_GETHOTCURSOR = ($LVM_FIRST + 63)
+Global Const $LVM_GETHOTITEM = ($LVM_FIRST + 61)
+Global Const $LVM_GETHOVERTIME = ($LVM_FIRST + 72)
+Global Const $LVM_GETIMAGELIST = ($LVM_FIRST + 2)
+Global Const $LVM_GETINSERTMARK = ($LVM_FIRST + 167)
+Global Const $LVM_GETINSERTMARKCOLOR = ($LVM_FIRST + 171)
+Global Const $LVM_GETINSERTMARKRECT = ($LVM_FIRST + 169)
+Global Const $LVM_GETISEARCHSTRINGA = ($LVM_FIRST + 52)
+Global Const $LVM_GETISEARCHSTRINGW = ($LVM_FIRST + 117)
+Global Const $LVM_GETITEMA = ($LVM_FIRST + 5)
+Global Const $LVM_GETITEMW = ($LVM_FIRST + 75)
+Global Const $LVM_GETITEMCOUNT = ($LVM_FIRST + 4)
+Global Const $LVM_GETITEMPOSITION = ($LVM_FIRST + 16)
+Global Const $LVM_GETITEMRECT = ($LVM_FIRST + 14)
+Global Const $LVM_GETITEMSPACING = ($LVM_FIRST + 51)
+Global Const $LVM_GETITEMSTATE = ($LVM_FIRST + 44)
+Global Const $LVM_GETITEMTEXTA = ($LVM_FIRST + 45)
+Global Const $LVM_GETITEMTEXTW = ($LVM_FIRST + 115)
+Global Const $LVM_GETNEXTITEM = ($LVM_FIRST + 12)
+Global Const $LVM_GETNUMBEROFWORKAREAS = ($LVM_FIRST + 73)
+Global Const $LVM_GETORIGIN = ($LVM_FIRST + 41)
+Global Const $LVM_GETOUTLINECOLOR = ($LVM_FIRST + 176)
+Global Const $LVM_GETSELECTEDCOLUMN = ($LVM_FIRST + 174)
+Global Const $LVM_GETSELECTEDCOUNT = ($LVM_FIRST + 50)
+Global Const $LVM_GETSELECTIONMARK = ($LVM_FIRST + 66)
+Global Const $LVM_GETSTRINGWIDTHA = ($LVM_FIRST + 17)
+Global Const $LVM_GETSTRINGWIDTHW = ($LVM_FIRST + 87)
+Global Const $LVM_GETSUBITEMRECT = ($LVM_FIRST + 56)
+Global Const $LVM_GETTEXTBKCOLOR = ($LVM_FIRST + 37)
+Global Const $LVM_GETTEXTCOLOR = ($LVM_FIRST + 35)
+Global Const $LVM_GETTOOLTIPS = ($LVM_FIRST + 78)
+Global Const $LVM_GETTOPINDEX = ($LVM_FIRST + 39)
+Global Const $LVM_GETUNICODEFORMAT = $CCM_GETUNICODEFORMAT
+Global Const $LVM_GETVIEW = ($LVM_FIRST + 143)
+Global Const $LVM_GETVIEWRECT = ($LVM_FIRST + 34)
+Global Const $LVM_HITTEST = ($LVM_FIRST + 18)
+Global Const $LVM_INSERTCOLUMNA = ($LVM_FIRST + 27)
+Global Const $LVM_INSERTCOLUMNW = ($LVM_FIRST + 97)
+Global Const $LVM_INSERTGROUP = ($LVM_FIRST + 145)
+Global Const $LVM_INSERTITEMA = ($LVM_FIRST + 7)
+Global Const $LVM_INSERTITEMW = ($LVM_FIRST + 77)
+Global Const $LVM_INSERTMARKHITTEST = ($LVM_FIRST + 168)
+Global Const $LVM_ISGROUPVIEWENABLED = ($LVM_FIRST + 175)
+Global Const $LVM_MAPIDTOINDEX = 4277
+Global Const $LVM_MAPINDEXTOID = 4276
+Global Const $LVM_MOVEGROUP = ($LVM_FIRST + 151)
+Global Const $LVM_REDRAWITEMS = ($LVM_FIRST + 21)
+Global Const $LVM_REMOVEALLGROUPS = ($LVM_FIRST + 160)
+Global Const $LVM_REMOVEGROUP = ($LVM_FIRST + 150)
+Global Const $LVM_SCROLL = ($LVM_FIRST + 20)
+Global Const $LVM_SETBKCOLOR = ($LVM_FIRST + 1)
+Global Const $LVM_SETBKIMAGEA = ($LVM_FIRST + 68)
+Global Const $LVM_SETBKIMAGEW = ($LVM_FIRST + 138)
+Global Const $LVM_SETCALLBACKMASK = ($LVM_FIRST + 11)
+Global Const $LVM_SETCOLUMNA = ($LVM_FIRST + 26)
+Global Const $LVM_SETCOLUMNW = ($LVM_FIRST + 96)
+Global Const $LVM_SETCOLUMNORDERARRAY = ($LVM_FIRST + 58)
+Global Const $LVM_SETCOLUMNWIDTH = ($LVM_FIRST + 30)
+Global Const $LVM_SETEXTENDEDLISTVIEWSTYLE = ($LVM_FIRST + 54)
+Global Const $LVM_SETGROUPINFO = ($LVM_FIRST + 147)
+Global Const $LVM_SETHOTCURSOR = ($LVM_FIRST + 62)
+Global Const $LVM_SETHOTITEM = ($LVM_FIRST + 60)
+Global Const $LVM_SETHOVERTIME = ($LVM_FIRST + 71)
+Global Const $LVM_SETICONSPACING = ($LVM_FIRST + 53)
+Global Const $LVM_SETIMAGELIST = ($LVM_FIRST + 3)
+Global Const $LVM_SETINFOTIP = ($LVM_FIRST + 173)
+Global Const $LVM_SETINSERTMARK = ($LVM_FIRST + 166)
+Global Const $LVM_SETINSERTMARKCOLOR = ($LVM_FIRST + 170)
+Global Const $LVM_SETITEMA = ($LVM_FIRST + 6)
+Global Const $LVM_SETITEMW = ($LVM_FIRST + 76)
+Global Const $LVM_SETITEMCOUNT = ($LVM_FIRST + 47)
+Global Const $LVM_SETITEMPOSITION = ($LVM_FIRST + 15)
+Global Const $LVM_SETITEMPOSITION32 = ($LVM_FIRST + 49)
+Global Const $LVM_SETITEMSTATE = ($LVM_FIRST + 43)
+Global Const $LVM_SETITEMTEXTA = ($LVM_FIRST + 46)
+Global Const $LVM_SETITEMTEXTW = ($LVM_FIRST + 116)
+Global Const $LVM_SETOUTLINECOLOR = ($LVM_FIRST + 177)
+Global Const $LVM_SETSELECTEDCOLUMN = ($LVM_FIRST + 140)
+Global Const $LVM_SETSELECTIONMARK = ($LVM_FIRST + 67)
+Global Const $LVM_SETTEXTCOLOR = ($LVM_FIRST + 36)
+Global Const $LVM_SETTEXTBKCOLOR = ($LVM_FIRST + 38)
+Global Const $LVM_SETTOOLTIPS = ($LVM_FIRST + 74)
+Global Const $LVM_SETUNICODEFORMAT = $CCM_SETUNICODEFORMAT
+Global Const $LVM_SETVIEW = ($LVM_FIRST + 142)
+Global Const $LVM_SETWORKAREAS = ($LVM_FIRST + 65)
+Global Const $LVM_SORTITEMS = ($LVM_FIRST + 48)
+Global Const $LVM_SORTITEMSEX = ($LVM_FIRST + 81)
+Global Const $LVM_SUBITEMHITTEST = ($LVM_FIRST + 57)
+Global Const $LVM_UPDATE = ($LVM_FIRST + 42)
+Global Const $LVN_FIRST = -100
+Global Const $LVN_LAST = -199
+Global Const $LVN_ITEMCHANGING = -100
+Global Const $LVN_ITEMCHANGED = -101
+Global Const $LVN_INSERTITEM = -102
+Global Const $LVN_DELETEITEM = -103
+Global Const $LVN_DELETEALLITEMS = -104
+Global Const $LVN_BEGINLABELEDIT = -105
+Global Const $LVN_ENDLABELEDIT = -106
+Global Const $LVN_COLUMNCLICK = -108
+Global Const $LVN_BEGINDRAG = -109
+Global Const $LVN_BEGINRDRAG = -111
+Global Const $LVN_ODCACHEHINT = -113
+Global Const $LVN_ITEMACTIVATE = -114
+Global Const $LVN_ODSTATECHANGED = -115
+Global Const $LVN_HOTTRACK = -121
+Global Const $LVN_GETDISPINFO = -150
+Global Const $LVN_SETDISPINFO = -151
+Global Const $LVN_ODFINDITEM = -152
+Global Const $LVN_BEGINLABELEDITW = -175
+Global Const $LVN_ENDLABELEDITW = -176
+Global Const $LVN_GETDISPINFOW = -177
+Global Const $LVN_SETDISPINFOW = -178
+Global Const $LVN_ODFINDITEMW = -179
+Global Const $LVN_BEGINSCROLL = ($LVN_FIRST - 80)
+Global Const $LVN_ENDSCROLL = ($LVN_FIRST - 81)
+Global Const $LVN_GETINFOTIPA = ($LVN_FIRST - 57)
+Global Const $LVN_GETINFOTIP = $LVN_GETINFOTIPA
+Global Const $LVN_GETINFOTIPW = ($LVN_FIRST - 58)
+Global Const $LVN_KEYDOWN = ($LVN_FIRST - 55)
+Global Const $LVN_MARQUEEBEGIN = ($LVN_FIRST - 56)
+Global Const $LVNI_ABOVE = 256
+Global Const $LVNI_BELOW = 512
+Global Const $LVNI_TOLEFT = 1024
+Global Const $LVNI_TORIGHT = 2048
+Global Const $LVNI_ALL = 0
+Global Const $LVNI_CUT = 4
+Global Const $LVNI_DROPHILITED = 8
+Global Const $LVNI_FOCUSED = 1
+Global Const $LVNI_SELECTED = 2
+Global Const $LVSCW_AUTOSIZE = -1
+Global Const $LVSCW_AUTOSIZE_USEHEADER = -2
+Global Const $LVSICF_NOINVALIDATEALL = 1
+Global Const $LVSICF_NOSCROLL = 2
+Global Const $LVSIL_NORMAL = 0
+Global Const $LVSIL_SMALL = 1
+Global Const $LVSIL_STATE = 2
+Global Const $TBS_AUTOTICKS = 1
+Global Const $TBS_BOTH = 8
+Global Const $TBS_BOTTOM = 0
+Global Const $TBS_DOWNISLEFT = 1024
+Global Const $TBS_ENABLESELRANGE = 32
+Global Const $TBS_FIXEDLENGTH = 64
+Global Const $TBS_HORZ = 0
+Global Const $TBS_LEFT = 4
+Global Const $TBS_NOTHUMB = 128
+Global Const $TBS_NOTICKS = 16
+Global Const $TBS_REVERSED = 512
+Global Const $TBS_RIGHT = 0
+Global Const $TBS_TOP = 4
+Global Const $TBS_TOOLTIPS = 256
+Global Const $TBS_VERT = 2
+Global Const $TBCD_CHANNEL = 3
+Global Const $TBCD_THUMB = 2
+Global Const $TBCD_TICS = 1
+Global Const $TWM_USER = 1024
+Global Const $TBM_CLEARSEL = ($TWM_USER + 19)
+Global Const $TBM_CLEARTICS = ($TWM_USER + 9)
+Global Const $TBM_GETBUDDY = ($TWM_USER + 33)
+Global Const $TBM_GETCHANNELRECT = ($TWM_USER + 26)
+Global Const $TBM_GETLINESIZE = ($TWM_USER + 24)
+Global Const $TBM_GETNUMTICS = ($TWM_USER + 16)
+Global Const $TBM_GETPAGESIZE = ($TWM_USER + 22)
+Global Const $TBM_GETPOS = $TWM_USER
+Global Const $TBM_GETPTICS = ($TWM_USER + 14)
+Global Const $TBM_GETSELEND = ($TWM_USER + 18)
+Global Const $TBM_GETSELSTART = ($TWM_USER + 17)
+Global Const $TBM_GETRANGEMAX = ($TWM_USER + 2)
+Global Const $TBM_GETRANGEMIN = ($TWM_USER + 1)
+Global Const $TBM_GETTHUMBLENGTH = ($TWM_USER + 28)
+Global Const $TBM_GETTHUMBRECT = ($TWM_USER + 25)
+Global Const $TBM_GETTIC = ($TWM_USER + 3)
+Global Const $TBM_GETTICPOS = ($TWM_USER + 15)
+Global Const $TBM_GETTOOLTIPS = ($TWM_USER + 30)
+Global Const $TBM_GETUNICODEFORMAT = $CCM_GETUNICODEFORMAT
+Global Const $TBM_SETBUDDY = ($TWM_USER + 32)
+Global Const $TBM_SETLINESIZE = ($TWM_USER + 23)
+Global Const $TBM_SETPAGESIZE = ($TWM_USER + 21)
+Global Const $TBM_SETPOS = ($TWM_USER + 5)
+Global Const $TBM_SETRANGE = ($TWM_USER + 6)
+Global Const $TBM_SETRANGEMAX = ($TWM_USER + 8)
+Global Const $TBM_SETRANGEMIN = ($TWM_USER + 7)
+Global Const $TBM_SETSEL = ($TWM_USER + 10)
+Global Const $TBM_SETSELEND = ($TWM_USER + 12)
+Global Const $TBM_SETSELSTART = ($TWM_USER + 11)
+Global Const $TBM_SETTHUMBLENGTH = ($TWM_USER + 27)
+Global Const $TBM_SETTIC = ($TWM_USER + 4)
+Global Const $TBM_SETTICFREQ = ($TWM_USER + 20)
+Global Const $TBM_SETTIPSIDE = ($TWM_USER + 31)
+Global Const $TBM_SETTOOLTIPS = ($TWM_USER + 29)
+Global Const $TBM_SETUNICODEFORMAT = $CCM_SETUNICODEFORMAT
+Global Const $TBTS_BOTTOM = 2
+Global Const $TBTS_LEFT = 1
+Global Const $TBTS_RIGHT = 3
+Global Const $TBTS_TOP = 0
+Global Const $TAGCOMBOBOXINFO = "dword Size;int EditLeft;int EditTop;int EditRight;int EditBottom;int BtnLeft;int BtnTop;" & "int BtnRight;int BtnBottom;dword BtnState;hwnd hCombo;hwnd hEdit;hwnd hList"
+Global Const $TAGCOMBOBOXEXITEM = "int Mask;int Item;ptr Text;int TextMax;int Image;int SelectedImage;int OverlayImage;" & "int Indent;int Param"
+Global Const $TAGNMCBEDRAGBEGIN = "hwnd hWndFrom;int IDFrom;int Code;int ItemID;char Text[1024]"
+Global Const $TAGNMCBEENDEDIT = "hwnd hWndFrom;int IDFrom;int Code;int fChanged;int NewSelection;char Text[1024];int Why"
+Global Const $TAGNMCOMBOBOXEX = "hwnd hWndFrom;int IDFrom;int Code;int Mask;int Item;ptr Text;int TextMax;int Image;" & "int SelectedImage;int OverlayImage;int Indent;int Param"
+Global Const $TAGDTPRANGE = "short MinYear;short MinMonth;short MinDOW;short MinDay;short MinHour;short MinMinute;" & "short MinSecond;short MinMSecond;short MaxYear;short MaxMonth;short MaxDOW;short MaxDay;short MaxHour;" & "short MaxMinute;short MaxSecond;short MaxMSecond;int MinValid;int MaxValid"
+Global Const $TAGDTPTIME = "short Year;short Month;short DOW;short Day;short Hour;short Minute;short Second;short MSecond"
+Global Const $TAGNMDATETIMECHANGE = "hwnd hWndFrom;int IDFrom;int Code;int Flag;short Year;short Month;short DOW;short Day;" & "short Hour;short Minute;short Second;short MSecond"
+Global Const $TAGNMDATETIMEFORMAT = "hwnd hWndFrom;int IDFrom;int Code;ptr Format;short Year;short Month;short DOW;short Day;" & "short Hour;short Minute;short Second;short MSecond;ptr pDisplay;char Display[64]"
+Global Const $TAGNMDATETIMEFORMATQUERY = "hwnd hWndFrom;int IDFrom;int Code;ptr Format;int SizeX;int SizeY"
+Global Const $TAGNMDATETIMEKEYDOWN = "hwnd hWndFrom;int IDFrom;int Code;int VirtKey;ptr Format;short Year;short Month;short DOW;" & "short Day;short Hour;short Minute;short Second;short MSecond"
+Global Const $TAGNMDATETIMESTRING = "hwnd hWndFrom;int IDFrom;int Code;ptr UserString;short Year;short Month;short DOW;short Day;" & "short Hour;short Minute;short Second;short MSecond;int Flags"
+Global Const $TAGEDITBALLOONTIP = "dword Size;ptr Title;ptr Text;int Icon"
+Global Const $TAGEVENTLOGRECORD = "int Length;int Reserved;int RecordNumber;int TimeGenerated;int TimeWritten;int EventID;" & "short EventType;short NumStrings;short EventCategory;short ReservedFlags;int ClosingRecordNumber;int StringOffset;" & "int UserSidLength;int UserSidOffset;int DataLength;int DataOffset"
+Global Const $TAGEVENTREAD = "byte Buffer[4096];int BytesRead;int BytesMin"
+Global Const $TAGGDIPBITMAPDATA = "uint Width;uint Height;int Stride;uint Format;ptr Scan0;ptr Reserved"
+Global Const $TAGGDIPENCODERPARAM = "byte GUID[16];dword Count;dword Type;ptr Values"
+Global Const $TAGGDIPENCODERPARAMS = "dword Count;byte Params[0]"
+Global Const $TAGGDIPRECTF = "float X;float Y;float Width;float Height"
+Global Const $TAGGDIPSTARTUPINPUT = "int Version;ptr Callback;int NoThread;int NoCodecs"
+Global Const $TAGGDIPSTARTUPOUTPUT = "ptr HookProc;ptr UnhookProc"
+Global Const $TAGGDIPIMAGECODECINFO = "byte CLSID[16];byte FormatID[16];ptr CodecName;ptr DllName;ptr FormatDesc;ptr FileExt;" & "ptr MimeType;dword Flags;dword Version;dword SigCount;dword SigSize;ptr SigPattern;ptr SigMask"
+Global Const $TAGGDIPPENCODERPARAMS = "dword Count;byte Params[0]"
+Global Const $TAGHDHITTESTINFO = "int X;int Y;int Flags;int Item"
+Global Const $TAGHDITEM = "int Mask;int XY;ptr Text;hwnd hBMP;int TextMax;int Fmt;int Param;int Image;int Order;int Type;ptr pFilter;int State"
+Global Const $TAGHDLAYOUT = "ptr Rect;ptr WindowPos"
+Global Const $TAGHDTEXTFILTER = "ptr Text;int TextMax"
+Global Const $TAGNMHDDISPINFO = "hwnd WndFrom;int IDFrom;int Code;int Item;int Mask;ptr Text;int TextMax;int Image;int lParam"
+Global Const $TAGNMHDFILTERBTNCLICK = "hwnd hWndFrom;int IDFrom;int Code;int Item;int Left;int Top;int Right;int Bottom"
+Global Const $TAGNMHEADER = "hwnd hWndFrom;int IDFrom;int Code;int Item;int Button;ptr pItem"
+Global Const $TAGGETIPADDRESS = "ubyte Field4;ubyte Field3;ubyte Field2;ubyte Field1"
+Global Const $TAGNMIPADDRESS = "hwnd hWndFrom;int IDFrom;int Code;int Field;int Value"
+Global Const $TAGLVBKIMAGE = "int Flags;hwnd hBmp;int Image;int ImageMax;int XOffPercent;int YOffPercent"
+Global Const $TAGLVCOLUMN = "int Mask;int Fmt;int CX;ptr Text;int TextMax;int SubItem;int Image;int Order"
+Global Const $TAGLVFINDINFO = "int Flags;ptr Text;int Param;int X;int Y;int Direction"
+Global Const $TAGLVGROUP = "int Size;int Mask;ptr Header;int HeaderMax;ptr Footer;int FooterMax;int GroupID;int StateMask;int State;int Align"
+Global Const $TAGLVHITTESTINFO = "int X;int Y;int Flags;int Item;int SubItem"
+Global Const $TAGLVINSERTMARK = "uint Size;dword Flags;int Item;dword Reserved"
+Global Const $TAGLVITEM = "int Mask;int Item;int SubItem;int State;int StateMask;ptr Text;int TextMax;int Image;int Param;" & "int Indent;int GroupID;int Columns;ptr pColumns"
+Global Const $TAGNMLISTVIEW = "hwnd hWndFrom;int IDFrom;int Code;int Item;int SubItem;int NewState;int OldState;int Changed;" & "int ActionX;int ActionY;int Param"
+Global Const $TAGNMLVDISPINFO = "hwnd hWndFrom;int IDFrom;int Code;int Mask;int Item;int SubItem;int State;int StateMask;" & "ptr Text;int TextMax;int Image;int Param;int Indent;int GroupID;int Columns;ptr pColumns"
+Global Const $TAGNMLVFINDITEM = "hwnd hWndFrom;int IDFrom;int Code;int Start;int Flags;ptr Text;int Param;int X;int Y;int Direction"
+Global Const $TAGNMLVGETINFOTIP = "hwnd hWndFrom;int IDFrom;int Code;int Flags;ptr Text;int TextMax;int Item;int SubItem;int lParam"
+Global Const $TAGNMITEMACTIVATE = "hwnd hWndFrom;int IDFrom;int Code;int Index;int SubItem;int NewState;int OldState;" & "int Changed;int X;int Y;int lParam;int KeyFlags"
+Global Const $TAGNMLVKEYDOWN = "hwnd hWndFrom;int IDFrom;int Code;int VKey;int Flags"
+Global Const $TAGNMLVSCROLL = "hwnd hWndFrom;int IDFrom;int Code;int DX;int DY"
+Global Const $TAGLVSETINFOTIP = "int Size;int Flags;ptr Text;int Item;int SubItem"
+Global Const $TAGMCHITTESTINFO = "int Size;int X;int Y;int Hit;short Year;short Month;short DOW;short Day;short Hour;" & "short Minute;short Second;short MSeconds"
+Global Const $TAGMCMONTHRANGE = "short MinYear;short MinMonth;short MinDOW;short MinDay;short MinHour;short MinMinute;short MinSecond;" & "short MinMSeconds;short MaxYear;short MaxMonth;short MaxDOW;short MaxDay;short MaxHour;short MaxMinute;short MaxSecond;" & "short MaxMSeconds;short Span"
+Global Const $TAGMCRANGE = "short MinYear;short MinMonth;short MinDOW;short MinDay;short MinHour;short MinMinute;short MinSecond;" & "short MinMSeconds;short MaxYear;short MaxMonth;short MaxDOW;short MaxDay;short MaxHour;short MaxMinute;short MaxSecond;" & "short MaxMSeconds;short MinSet;short MaxSet"
+Global Const $TAGMCSELRANGE = "short MinYear;short MinMonth;short MinDOW;short MinDay;short MinHour;short MinMinute;short MinSecond;" & "short MinMSeconds;short MaxYear;short MaxMonth;short MaxDOW;short MaxDay;short MaxHour;short MaxMinute;short MaxSecond;" & "short MaxMSeconds"
+Global Const $TAGNMDAYSTATE = "hwnd hWndFrom;int IDFrom;int Code;short Year;short Month;short DOW;short Day;short Hour;" & "short Minute;short Second;short MSeconds;int DayState;ptr pDayState"
+Global Const $TAGNMSELCHANGE = "hwnd hWndFrom;int IDFrom;int Code;short BegYear;short BegMonth;short BegDOW;short BegDay;" & "short BegHour;short BegMinute;short BegSecond;short BegMSeconds;short EndYear;short EndMonth;short EndDOW;" & "short EndDay;short EndHour;short EndMinute;short EndSecond;short EndMSeconds"
+Global Const $TAGNMOBJECTNOTIFY = "hwnd hWndFrom;int IDFrom;int Code;int Item;ptr piid;ptr pObject;int Result"
+Global Const $TAGNMTCKEYDOWN = "hwnd hWndFrom;int IDFrom;int Code;int VKey;int Flags"
+Global Const $TAGTCITEM = "int Mask;int State;int StateMask;ptr Text;int TextMax;int Image;int Param"
+Global Const $TAGTCHITTESTINFO = "int X;int Y;int Flags"
+Global Const $TAGTVITEMEX = "int Mask;int hItem;int State;int StateMask;ptr Text;int TextMax;int Image;int SelectedImage;" & "int Children;int Param;int Integral"
+Global Const $TAGNMTREEVIEW = "hwnd hWndFrom;int IDFrom;int Code;int Action;int OldMask;int OldhItem;int OldState;int OldStateMask;" & "ptr OldText;int OldTextMax;int OldImage;int OldSelectedImage;int OldChildren;int OldParam;int NewMask;int NewhItem;" & "int NewState;int NewStateMask;ptr NewText;int NewTextMax;int NewImage;int NewSelectedImage;int NewChildren;" & "int NewParam;int PointX; int PointY"
+Global Const $TAGNMTVCUSTOMDRAW = "hwnd hWndFrom;int IDFrom;int Code;uint DrawStage;hwnd HDC;int Left;int Top;int Right;int Bottom;" & "ptr ItemSpec;uint ItemState;int ItemParam;int ClrText;int ClrTextBk;int Level"
+Global Const $TAGNMTVDISPINFO = "hwnd hWndFrom;int IDFrom;int Code;int Mask;int hItem;int State;int StateMask;" & "ptr Text;int TextMax;int Image;int SelectedImage;int Children;int Param"
+Global Const $TAGNMTVGETINFOTIP = "hwnd hWndFrom;int IDFrom;int Code;ptr Text;int TextMax;hwnd hItem;int lParam"
+Global Const $TAGTVHITTESTINFO = "int X;int Y;int Flags;int Item"
+Global Const $TAGTVINSERTSTRUCT = "hwnd Parent;int InsertAfter;int Mask;hwnd hItem;int State;int StateMask;ptr Text;int TextMax;" & "int Image;int SelectedImage;int Children;int Param"
+Global Const $TAGNMTVKEYDOWN = "hwnd hWndFrom;int IDFrom;int Code;int VKey;int Flags"
+Global Const $TAGNMTTDISPINFO = "hwnd hWndFrom;int IDFrom;int Code;ptr pText;char aText[80];hwnd Instance;int Flags;int Param"
+Global Const $TAGTOOLINFO = "int Size;int Flags;hwnd hWnd;int ID;int Left;int Top;int Right;int Bottom;hwnd hInst;ptr Text;int Param;ptr Reserved"
+Global Const $TAGTTGETTITLE = "int Size;int Bitmap;int TitleMax;ptr Title"
+Global Const $TAGTTHITTESTINFO = "hwnd Tool;int X;int Y;int Size;int Flags;hwnd hWnd;int ID;int Left;int Top;int Right;int Bottom;" & "hwnd hInst;ptr Text;int Param;ptr Reserved"
+Global Const $TAGNMHDR = "hwnd hWndFrom;int IDFrom;int Code"
+Global Const $TAGNMMOUSE = "hwnd hWndFrom;int IDFrom;int Code;dword ItemSpec;dword ItemData;int X;int Y;dword HitInfo"
+Global Const $TAGPOINT = "int X;int Y"
+Global Const $TAGRECT = "int Left;int Top;int Right;int Bottom"
+Global Const $TAGMARGINS = "int cxLeftWidth;int cxRightWidth;int cyTopHeight;int cyBottomHeight"
+Global Const $TAGSIZE = "int X;int Y"
+Global Const $TAGTOKEN_PRIVILEGES = "int Count;int64 LUID;int Attributes"
+Global Const $TAGIMAGEINFO = "hwnd hBitmap;hwnd hMask;int Unused1;int Unused2;int Left;int Top;int Right;int Bottom"
+Global Const $TAGIMAGELISTDRAWPARAMS = "int Size;hwnd hWnd;int Image;hwnd hDC;int X;int Y;int CX;int CY;int XBitmap;int YBitmap;" & "int BK;int FG;int Style;int ROP;int State;int Frame;int Effect"
+Global Const $TAGMEMMAP = "hwnd hProc;int Size;ptr Mem"
+Global Const $TAGMDINEXTMENU = "hwnd hMenuIn;hwnd hMenuNext;hwnd hWndNext"
+Global Const $TAGMENUBARINFO = "int Size;int Left;int Top;int Right;int Bottom;int hMenu;int hWndMenu;int Focused"
+Global Const $TAGMENUEX_TEMPLATE_HEADER = "short Version;short Offset;int HelpID"
+Global Const $TAGMENUEX_TEMPLATE_ITEM = "int HelpID;int Type;int State;int MenuID;short ResInfo;ptr Text"
+Global Const $TAGMENUGETOBJECTINFO = "int Flags;int Pos;hwnd hMenu;ptr RIID;ptr Obj"
+Global Const $TAGMENUINFO = "int Size;int Mask;int Style;int YMax;int hBack;int ContextHelpID;ptr MenuData"
+Global Const $TAGMENUITEMINFO = "int Size;int Mask;int Type;int State;int ID;int SubMenu;int BmpChecked;int BmpUnchecked;" & "int ItemData;ptr TypeData;int CCH;int BmpItem"
+Global Const $TAGMENUITEMTEMPLATE = "short Option;short ID;ptr String"
+Global Const $TAGMENUITEMTEMPLATEHEADER = "short Version;short Offset"
+Global Const $TAGTPMPARAMS = "short Version;short Offset"
+Global Const $TAGCONNECTION_INFO_1 = "int ID;int Type;int Opens;int Users;int Time;ptr Username;ptr NetName"
+Global Const $TAGFILE_INFO_3 = "int ID;int Permissions;int Locks;ptr Pathname;ptr Username"
+Global Const $TAGSESSION_INFO_2 = "ptr CName;ptr Username;int Opens;int Time;int Idle;int Flags;ptr TypeName"
+Global Const $TAGSESSION_INFO_502 = "ptr CName;ptr Username;int Opens;int Time;int Idle;int Flags;ptr TypeName;ptr Transport"
+Global Const $TAGSHARE_INFO_2 = "ptr NetName;int Type;ptr Remark;int Permissions;int MaxUses;int CurrentUses;ptr Path;ptr Password"
+Global Const $TAGSTAT_SERVER_0 = "int Start;int FOpens;int DevOpens;int JobsQueued;int SOpens;int STimedOut;int SErrorOut;" & "int PWErrors;int PermErrors;int SysErrors;int64 ByteSent;int64 ByteRecv;int AvResponse;int ReqBufNeed;int BigBufNeed"
+Global Const $TAGSTAT_WORKSTATION_0 = "int64 StartTime;int64 BytesRecv;int64 SMBSRecv;int64 PageRead;int64 NonPageRead;" & "int64 CacheRead;int64 NetRead;int64 BytesTran;int64 SMBSTran;int64 PageWrite;int64 NonPageWrite;int64 CacheWrite;" & "int64 NetWrite;int InitFailed;int FailedComp;int ReadOp;int RandomReadOp;int ReadSMBS;int LargeReadSMBS;" & "int SmallReadSMBS;int WriteOp;int RandomWriteOp;int WriteSMBS;int LargeWriteSMBS;int SmallWriteSMBS;" & "int RawReadsDenied;int RawWritesDenied;int NetworkErrors;int Sessions;int FailedSessions;int Reconnects;" & "int CoreConnects;int LM20Connects;int LM21Connects;int LMNTConnects;int ServerDisconnects;int HungSessions;" & "int UseCount;int FailedUseCount;int CurrentCommands"
+Global Const $TAGFILETIME = "dword Lo;dword Hi"
+Global Const $TAGSYSTEMTIME = "short Year;short Month;short Dow;short Day;short Hour;short Minute;short Second;short MSeconds"
+Global Const $TAGTIME_ZONE_INFORMATION = "dword Bias;byte StdName[64];ushort StdDate[8];dword StdBias;byte DayName[64];ushort DayDate[8];dword DayBias"
+Global Const $TAGPBRANGE = "int Low;int High"
+Global Const $TAGREBARBANDINFO = "uint cbSize;uint fMask;uint fStyle;dword clrFore;dword clrBack;ptr lpText;uint cch;" & "int iImage;hwnd hwndChild;uint cxMinChild;uint cyMinChild;uint cx;hwnd hbmBack;uint wID;uint cyChild;uint cyMaxChild;" & "uint cyIntegral;uint cxIdeal;int lParam;uint cxHeader"
+Global Const $TAGNMREBARAUTOBREAK = "hwnd hWndFrom;int IDFrom;int Code;uint uBand;uint wID;int lParam;uint uMsg;uint fStyleCurrent;int fAutoBreak"
+Global Const $TAGNMRBAUTOSIZE = "hwnd hWndFrom;int IDFrom;int Code;int fChanged;int TargetLeft;int TargetTop;int TargetRight;int TargetBottom;" & "int ActualLeft;int ActualTop;int ActualRight;int ActualBottom"
+Global Const $TAGNMREBAR = "hwnd hWndFrom;int IDFrom;int Code;dword dwMask;uint uBand;uint fStyle;uint wID;int lParam"
+Global Const $TAGNMREBARCHEVRON = "hwnd hWndFrom;int IDFrom;int Code;uint uBand;uint wID;int lParam;int Left;int Top;int Right;int Bottom;int lParamNM"
+Global Const $TAGNMREBARCHILDSIZE = "hwnd hWndFrom;int IDFrom;int Code;uint uBand;uint wID;int CLeft;int CTop;int CRight;int CBottom;" & "int BLeft;int BTop;int BRight;int BBottom"
+Global Const $TAGREBARINFO = DllStructCreate("uint cbSize;uint fMask;hwnd himl")
+Global Const $TAGRBHITTESTINFO = "int X;int Y;uint flags;int iBand"
+Global Const $TAGCOLORSCHEME = "int Size;int BtnHighlight;int BtnShadow"
+Global Const $TAGTBADDBITMAP = "int hInst;int ID"
+Global Const $TAGNMTOOLBAR = "hwnd hWndFrom;int IDFrom;int Code;int iItem;int iBitmap;int idCommand;" & "byte fsState;byte fsStyle;byte bReserved1;byte bReserved2;dword dwData;int iString;int cchText;" & "ptr pszText;int Left;int Top;int Right;int Bottom"
+Global Const $TAGNMTBHOTITEM = "hwnd hWndFrom;int IDFrom;int Code;int idOld;int idNew;dword dwFlags"
+Global Const $TAGTBBUTTON = "int Bitmap;int Command;byte State;byte Style;short Reserved;int Param;int String"
+Global Const $TAGTBBUTTONINFO = "int Size;int Mask;int Command;int Image;byte State;byte Style;short CX;int Param;ptr Text;int TextMax"
+Global Const $TAGTBINSERTMARK = "int Button;int Flags"
+Global Const $TAGTBMETRICS = "int Size;int Mask;int XPad;int YPad;int XBarPad;int YBarPad;int XSpacing;int YSpacing"
+Global Const $TAGCONNECTDLGSTRUCT = "int Size;hwnd hWnd;ptr Resource;int Flags;int DevNum"
+Global Const $TAGDISCDLGSTRUCT = "int Size;hwnd hWnd;ptr LocalName;ptr RemoteName;int Flags"
+Global Const $TAGNETCONNECTINFOSTRUCT = "int Size;int Flags;int Speed;int Delay;int OptDataSize"
+Global Const $TAGNETINFOSTRUCT = "int Size;int Version;int Status;int Char;int Handle;short NetType;int Printers;int Drives;short Reserved"
+Global Const $TAGNETRESOURCE = "int Scope;int Type;int DisplayType;int Usage;ptr LocalName;ptr RemoteName;ptr Comment;ptr Provider"
+Global Const $TAGREMOTENAMEINFO = "ptr Universal;ptr Connection;ptr Remaining"
+Global Const $TAGOVERLAPPED = "int Internal;int InternalHigh;int Offset;int OffsetHigh;int hEvent"
+Global Const $TAGBITMAPINFO = "dword Size;long Width;long Height;ushort Planes;ushort BitCount;dword Compression;dword SizeImage;" & "long XPelsPerMeter;long YPelsPerMeter;dword ClrUsed;dword ClrImportant;dword RGBQuad"
+Global Const $TAGBLENDFUNCTION = "byte Op;byte Flags;byte Alpha;byte Format"
+Global Const $TAGBORDERS = "int BX;int BY;int RX"
+Global Const $TAGCHOOSECOLOR = "dword Size;hwnd hWndOwnder;hwnd hInstance;int rgbResult;ptr CustColors;dword Flags;int lCustData;" & "ptr lpfnHook;ptr lpTemplateName"
+Global Const $TAGCHOOSEFONT = "dword Size;hwnd hWndOwner;hwnd hDC;ptr LogFont;int PointSize;dword Flags;int rgbColors;int CustData;" & "ptr fnHook;ptr TemplateName;hwnd hInstance;ptr szStyle;dword FontType;int SizeMin;int SizeMax"
+Global Const $TAGCURSORINFO = "int Size;int Flags;hwnd hCursor;int X;int Y"
+Global Const $TAGDISPLAY_DEVICE = "int Size;char Name[32];char String[128];int Flags;char ID[128];char Key[128]"
+Global Const $TAGFLASHWINDOW = "int Size;hwnd hWnd;int Flags;int Count;int TimeOut"
+Global Const $TAGGUID = "int Data1;short Data2;short Data3;byte Data4[8]"
+Global Const $TAGICONINFO = "int Icon;int XHotSpot;int YHotSpot;hwnd hMask;hwnd hColor"
+Global Const $TAGWINDOWPOS = "hwnd hWnd;int InsertAfter;int X;int Y;int CX;int CY;int Flags"
+Global Const $TAGLOGFONT = "int Height;int Width;int Escapement;int Orientation;int Weight;byte Italic;byte Underline;" & "byte Strikeout;byte CharSet;byte OutPrecision;byte ClipPrecision;byte Quality;byte PitchAndFamily;char FaceName[32]"
+Global Const $TAGPROCESS_INFORMATION = "hwnd hProcess;hwnd hThread;int ProcessID;int ThreadID"
+Global Const $TAGSTARTUPINFO = "int Size;ptr Reserved1;ptr Desktop;ptr Title;int X;int Y;int XSize;int YSize;int XCountChars;" & "int YCountChars;int FillAttribute;int Flags;short ShowWindow;short Reserved2;ptr Reserved3;int StdInput;" & "int StdOutput;int StdError"
+Global Const $TAGSECURITY_ATTRIBUTES = "int Length;ptr Descriptor;int InheritHandle"
+Global Const $TVS_HASBUTTONS = 1
+Global Const $TVS_HASLINES = 2
+Global Const $TVS_LINESATROOT = 4
+Global Const $TVS_EDITLABELS = 8
+Global Const $TVS_DISABLEDRAGDROP = 16
+Global Const $TVS_SHOWSELALWAYS = 32
+Global Const $TVS_RTLREADING = 64
+Global Const $TVS_NOTOOLTIPS = 128
+Global Const $TVS_CHECKBOXES = 256
+Global Const $TVS_TRACKSELECT = 512
+Global Const $TVS_SINGLEEXPAND = 1024
+Global Const $TVS_INFOTIP = 2048
+Global Const $TVS_FULLROWSELECT = 4096
+Global Const $TVS_NOSCROLL = 8192
+Global Const $TVS_NONEVENHEIGHT = 16384
+Global Const $TVS_NOHSCROLL = 32768
+Global Const $TVS_DEFAULT = 55
+Global Const $TVE_COLLAPSE = 1
+Global Const $TVE_EXPAND = 2
+Global Const $TVE_TOGGLE = 3
+Global Const $TVE_EXPANDPARTIAL = 16384
+Global Const $TVE_COLLAPSERESET = 32768
+Global Const $TVGN_ROOT = 0
+Global Const $TVGN_NEXT = 1
+Global Const $TVGN_PREVIOUS = 2
+Global Const $TVGN_PARENT = 3
+Global Const $TVGN_CHILD = 4
+Global Const $TVGN_FIRSTVISIBLE = 5
+Global Const $TVGN_NEXTVISIBLE = 6
+Global Const $TVGN_PREVIOUSVISIBLE = 7
+Global Const $TVGN_DROPHILITE = 8
+Global Const $TVGN_CARET = 9
+Global Const $TVGN_LASTVISIBLE = 10
+Global Const $TVHT_NOWHERE = 1
+Global Const $TVHT_ONITEMICON = 2
+Global Const $TVHT_ONITEMLABEL = 4
+Global Const $TVHT_ONITEMINDENT = 8
+Global Const $TVHT_ONITEMBUTTON = 16
+Global Const $TVHT_ONITEMRIGHT = 32
+Global Const $TVHT_ONITEMSTATEICON = 64
+Global Const $TVHT_ONITEM = 70
+Global Const $TVHT_ABOVE = 256
+Global Const $TVHT_BELOW = 512
+Global Const $TVHT_TORIGHT = 1024
+Global Const $TVHT_TOLEFT = 2048
+Global Const $TVI_ROOT = -65536
+Global Const $TVI_FIRST = -65535
+Global Const $TVI_LAST = -65534
+Global Const $TVI_SORT = -65533
+Global Const $TVIF_TEXT = 1
+Global Const $TVIF_IMAGE = 2
+Global Const $TVIF_PARAM = 4
+Global Const $TVIF_STATE = 8
+Global Const $TVIF_HANDLE = 16
+Global Const $TVIF_SELECTEDIMAGE = 32
+Global Const $TVIF_CHILDREN = 64
+Global Const $TVIF_INTEGRAL = 128
+Global Const $TVIF_DI_SETITEM = 4096
+Global Const $TVSIL_NORMAL = 0
+Global Const $TVSIL_STATE = 2
+Global Const $TVC_BYKEYBOARD = 2
+Global Const $TVC_BYMOUSE = 1
+Global Const $TVC_UNKNOWN = 0
+Global Const $TVIS_FOCUSED = 1
+Global Const $TVIS_SELECTED = 2
+Global Const $TVIS_CUT = 4
+Global Const $TVIS_DROPHILITED = 8
+Global Const $TVIS_BOLD = 16
+Global Const $TVIS_EXPANDED = 32
+Global Const $TVIS_EXPANDEDONCE = 64
+Global Const $TVIS_EXPANDPARTIAL = 128
+Global Const $TVIS_OVERLAYMASK = 3840
+Global Const $TVIS_STATEIMAGEMASK = 61440
+Global Const $TVIS_USERMASK = 61440
+Global Const $TVIS_UNCHECKED = 4096
+Global Const $TVIS_CHECKED = 8192
+Global Const $TVNA_ADD = 1
+Global Const $TVNA_ADDFIRST = 2
+Global Const $TVNA_ADDCHILD = 3
+Global Const $TVNA_ADDCHILDFIRST = 4
+Global Const $TVNA_INSERT = 5
+Global Const $TVTA_ADDFIRST = 1
+Global Const $TVTA_ADD = 2
+Global Const $TVTA_INSERT = 3
+Global Const $TV_FIRST = 4352
+Global Const $TVM_INSERTITEMA = $TV_FIRST + 0
+Global Const $TVM_INSERTITEM = $TVM_INSERTITEMA
+Global Const $TVM_DELETEITEM = $TV_FIRST + 1
+Global Const $TVM_EXPAND = $TV_FIRST + 2
+Global Const $TVM_GETITEMRECT = $TV_FIRST + 4
+Global Const $TVM_GETCOUNT = $TV_FIRST + 5
+Global Const $TVM_GETINDENT = $TV_FIRST + 6
+Global Const $TVM_SETINDENT = $TV_FIRST + 7
+Global Const $TVM_GETIMAGELIST = $TV_FIRST + 8
+Global Const $TVM_SETIMAGELIST = $TV_FIRST + 9
+Global Const $TVM_GETNEXTITEM = $TV_FIRST + 10
+Global Const $TVM_SELECTITEM = $TV_FIRST + 11
+Global Const $TVM_GETITEMA = $TV_FIRST + 12
+Global Const $TVM_GETITEM = $TVM_GETITEMA
+Global Const $TVM_SETITEMA = $TV_FIRST + 13
+Global Const $TVM_SETITEM = $TVM_SETITEMA
+Global Const $TVM_EDITLABELA = $TV_FIRST + 14
+Global Const $TVM_EDITLABEL = $TVM_EDITLABELA
+Global Const $TVM_GETEDITCONTROL = $TV_FIRST + 15
+Global Const $TVM_GETVISIBLECOUNT = $TV_FIRST + 16
+Global Const $TVM_HITTEST = $TV_FIRST + 17
+Global Const $TVM_CREATEDRAGIMAGE = $TV_FIRST + 18
+Global Const $TVM_SORTCHILDREN = $TV_FIRST + 19
+Global Const $TVM_ENSUREVISIBLE = $TV_FIRST + 20
+Global Const $TVM_SORTCHILDRENCB = $TV_FIRST + 21
+Global Const $TVM_ENDEDITLABELNOW = $TV_FIRST + 22
+Global Const $TVM_GETISEARCHSTRINGA = $TV_FIRST + 23
+Global Const $TVM_GETISEARCHSTRING = $TVM_GETISEARCHSTRINGA
+Global Const $TVM_SETTOOLTIPS = $TV_FIRST + 24
+Global Const $TVM_GETTOOLTIPS = $TV_FIRST + 25
+Global Const $TVM_SETINSERTMARK = $TV_FIRST + 26
+Global Const $TVM_SETITEMHEIGHT = $TV_FIRST + 27
+Global Const $TVM_GETITEMHEIGHT = $TV_FIRST + 28
+Global Const $TVM_SETBKCOLOR = $TV_FIRST + 29
+Global Const $TVM_SETTEXTCOLOR = $TV_FIRST + 30
+Global Const $TVM_GETBKCOLOR = $TV_FIRST + 31
+Global Const $TVM_GETTEXTCOLOR = $TV_FIRST + 32
+Global Const $TVM_SETSCROLLTIME = $TV_FIRST + 33
+Global Const $TVM_GETSCROLLTIME = $TV_FIRST + 34
+Global Const $TVM_SETINSERTMARKCOLOR = $TV_FIRST + 37
+Global Const $TVM_GETINSERTMARKCOLOR = $TV_FIRST + 38
+Global Const $TVM_GETITEMSTATE = $TV_FIRST + 39
+Global Const $TVM_SETLINECOLOR = $TV_FIRST + 40
+Global Const $TVM_GETLINECOLOR = $TV_FIRST + 41
+Global Const $TVM_MAPACCIDTOHTREEITEM = $TV_FIRST + 42
+Global Const $TVM_MAPHTREEITEMTOACCID = $TV_FIRST + 43
+Global Const $TVM_INSERTITEMW = $TV_FIRST + 50
+Global Const $TVM_GETITEMW = $TV_FIRST + 62
+Global Const $TVM_SETITEMW = $TV_FIRST + 63
+Global Const $TVM_GETISEARCHSTRINGW = $TV_FIRST + 64
+Global Const $TVM_EDITLABELW = $TV_FIRST + 65
+Global Const $TVM_GETUNICODEFORMAT = $CCM_GETUNICODEFORMAT
+Global Const $TVM_SETUNICODEFORMAT = $CCM_SETUNICODEFORMAT
+Global Const $TVN_FIRST = -400
+Global Const $TVN_SELCHANGINGA = $TVN_FIRST - 1
+Global Const $TVN_SELCHANGING = $TVN_SELCHANGINGA
+Global Const $TVN_SELCHANGEDA = $TVN_FIRST - 2
+Global Const $TVN_SELCHANGED = $TVN_SELCHANGEDA
+Global Const $TVN_GETDISPINFOA = $TVN_FIRST - 3
+Global Const $TVN_GETDISPINFO = $TVN_GETDISPINFOA
+Global Const $TVN_SETDISPINFOA = $TVN_FIRST - 4
+Global Const $TVN_SETDISPINFO = $TVN_SETDISPINFOA
+Global Const $TVN_ITEMEXPANDINGA = $TVN_FIRST - 5
+Global Const $TVN_ITEMEXPANDING = $TVN_ITEMEXPANDINGA
+Global Const $TVN_ITEMEXPANDEDA = $TVN_FIRST - 6
+Global Const $TVN_ITEMEXPANDED = $TVN_ITEMEXPANDEDA
+Global Const $TVN_BEGINDRAGA = $TVN_FIRST - 7
+Global Const $TVN_BEGINDRAG = $TVN_BEGINDRAGA
+Global Const $TVN_BEGINRDRAGA = $TVN_FIRST - 8
+Global Const $TVN_BEGINRDRAG = $TVN_BEGINRDRAGA
+Global Const $TVN_DELETEITEMA = $TVN_FIRST - 9
+Global Const $TVN_DELETEITEM = $TVN_DELETEITEMA
+Global Const $TVN_BEGINLABELEDITA = $TVN_FIRST - 10
+Global Const $TVN_BEGINLABELEDIT = $TVN_BEGINLABELEDITA
+Global Const $TVN_ENDLABELEDITA = $TVN_FIRST - 11
+Global Const $TVN_ENDLABELEDIT = $TVN_ENDLABELEDITA
+Global Const $TVN_KEYDOWN = $TVN_FIRST - 12
+Global Const $TVN_GETINFOTIPA = $TVN_FIRST - 13
+Global Const $TVN_GETINFOTIP = $TVN_GETINFOTIPA
+Global Const $TVN_GETINFOTIPW = $TVN_FIRST - 14
+Global Const $TVN_SINGLEEXPAND = $TVN_FIRST - 15
+Global Const $TVN_SELCHANGINGW = $TVN_FIRST - 50
+Global Const $TVN_SELCHANGEDW = $TVN_FIRST - 51
+Global Const $TVN_GETDISPINFOW = $TVN_FIRST - 52
+Global Const $TVN_SETDISPINFOW = $TVN_FIRST - 53
+Global Const $TVN_ITEMEXPANDINGW = $TVN_FIRST - 54
+Global Const $TVN_ITEMEXPANDEDW = $TVN_FIRST - 55
+Global Const $TVN_BEGINDRAGW = $TVN_FIRST - 56
+Global Const $TVN_BEGINRDRAGW = $TVN_FIRST - 57
+Global Const $TVN_DELETEITEMW = $TVN_FIRST - 58
+Global Const $TVN_BEGINLABELEDITW = $TVN_FIRST - 59
+Global Const $TVN_ENDLABELEDITW = $TVN_FIRST - 60
+Global Const $UDS_WRAP = 1
+Global Const $UDS_SETBUDDYINT = 2
+Global Const $UDS_ALIGNRIGHT = 4
+Global Const $UDS_ALIGNLEFT = 8
+Global Const $UDS_ARROWKEYS = 32
+Global Const $UDS_HORZ = 64
+Global Const $UDS_NOTHOUSANDS = 128
+Global Const $GUI_SS_DEFAULT_AVI = $ACS_TRANSPARENT
+Global Const $GUI_SS_DEFAULT_BUTTON = 0
+Global Const $GUI_SS_DEFAULT_CHECKBOX = 0
+Global Const $GUI_SS_DEFAULT_COMBO = BitOR($CBS_DROPDOWN, $CBS_AUTOHSCROLL, $WS_VSCROLL)
+Global Const $GUI_SS_DEFAULT_DATE = $DTS_LONGDATEFORMAT
+Global Const $GUI_SS_DEFAULT_EDIT = BitOR($ES_WANTRETURN, $WS_VSCROLL, $WS_HSCROLL, $ES_AUTOVSCROLL, $ES_AUTOHSCROLL)
+Global Const $GUI_SS_DEFAULT_GRAPHIC = 0
+Global Const $GUI_SS_DEFAULT_GROUP = 0
+Global Const $GUI_SS_DEFAULT_ICON = $SS_NOTIFY
+Global Const $GUI_SS_DEFAULT_INPUT = BitOR($ES_LEFT, $ES_AUTOHSCROLL)
+Global Const $GUI_SS_DEFAULT_LABEL = 0
+Global Const $GUI_SS_DEFAULT_LIST = BitOR($LBS_SORT, $WS_BORDER, $WS_VSCROLL, $LBS_NOTIFY)
+Global Const $GUI_SS_DEFAULT_LISTVIEW = BitOR($LVS_SHOWSELALWAYS, $LVS_SINGLESEL)
+Global Const $GUI_SS_DEFAULT_MONTHCAL = 0
+Global Const $GUI_SS_DEFAULT_PIC = $SS_NOTIFY
+Global Const $GUI_SS_DEFAULT_PROGRESS = 0
+Global Const $GUI_SS_DEFAULT_RADIO = 0
+Global Const $GUI_SS_DEFAULT_SLIDER = $TBS_AUTOTICKS
+Global Const $GUI_SS_DEFAULT_TAB = 0
+Global Const $GUI_SS_DEFAULT_TREEVIEW = BitOR($TVS_HASBUTTONS, $TVS_HASLINES, $TVS_LINESATROOT, $TVS_DISABLEDRAGDROP, $TVS_SHOWSELALWAYS)
+Global Const $GUI_SS_DEFAULT_UPDOWN = $UDS_ALIGNRIGHT
+Global Const $GUI_SS_DEFAULT_GUI = BitOR($WS_MINIMIZEBOX, $WS_CAPTION, $WS_POPUP, $WS_SYSMENU)
+Global Const $DEFAULT_GUI_FONT = 17
+Global Const $GUI_EVENT_CLOSE = -3
+Global Const $GUI_EVENT_MINIMIZE = -4
+Global Const $GUI_EVENT_RESTORE = -5
+Global Const $GUI_EVENT_MAXIMIZE = -6
+Global Const $GUI_EVENT_PRIMARYDOWN = -7
+Global Const $GUI_EVENT_PRIMARYUP = -8
+Global Const $GUI_EVENT_SECONDARYDOWN = -9
+Global Const $GUI_EVENT_SECONDARYUP = -10
+Global Const $GUI_EVENT_MOUSEMOVE = -11
+Global Const $GUI_EVENT_RESIZED = -12
+Global Const $GUI_EVENT_DROPPED = -13
+Global Const $GUI_RUNDEFMSG = "GUI_RUNDEFMSG"
+Global Const $GUI_AVISTOP = 0
+Global Const $GUI_AVISTART = 1
+Global Const $GUI_AVICLOSE = 2
+Global Const $GUI_CHECKED = 1
+Global Const $GUI_INDETERMINATE = 2
+Global Const $GUI_UNCHECKED = 4
+Global Const $GUI_DROPACCEPTED = 8
+Global Const $GUI_NODROPACCEPTED = 4096
+Global Const $GUI_ACCEPTFILES = $GUI_DROPACCEPTED
+Global Const $GUI_SHOW = 16
+Global Const $GUI_HIDE = 32
+Global Const $GUI_ENABLE = 64
+Global Const $GUI_DISABLE = 128
+Global Const $GUI_FOCUS = 256
+Global Const $GUI_NOFOCUS = 8192
+Global Const $GUI_DEFBUTTON = 512
+Global Const $GUI_EXPAND = 1024
+Global Const $GUI_ONTOP = 2048
+Global Const $GUI_FONTITALIC = 2
+Global Const $GUI_FONTUNDER = 4
+Global Const $GUI_FONTSTRIKE = 8
+Global Const $GUI_DOCKAUTO = 1
+Global Const $GUI_DOCKLEFT = 2
+Global Const $GUI_DOCKRIGHT = 4
+Global Const $GUI_DOCKHCENTER = 8
+Global Const $GUI_DOCKTOP = 32
+Global Const $GUI_DOCKBOTTOM = 64
+Global Const $GUI_DOCKVCENTER = 128
+Global Const $GUI_DOCKWIDTH = 256
+Global Const $GUI_DOCKHEIGHT = 512
+Global Const $GUI_DOCKSIZE = 768
+Global Const $GUI_DOCKMENUBAR = 544
+Global Const $GUI_DOCKSTATEBAR = 576
+Global Const $GUI_DOCKALL = 802
+Global Const $GUI_DOCKBORDERS = 102
+Global Const $GUI_GR_CLOSE = 1
+Global Const $GUI_GR_LINE = 2
+Global Const $GUI_GR_BEZIER = 4
+Global Const $GUI_GR_MOVE = 6
+Global Const $GUI_GR_COLOR = 8
+Global Const $GUI_GR_RECT = 10
+Global Const $GUI_GR_ELLIPSE = 12
+Global Const $GUI_GR_PIE = 14
+Global Const $GUI_GR_DOT = 16
+Global Const $GUI_GR_PIXEL = 18
+Global Const $GUI_GR_HINT = 20
+Global Const $GUI_GR_REFRESH = 22
+Global Const $GUI_GR_PENSIZE = 24
+Global Const $GUI_GR_NOBKCOLOR = -2
+Global Const $GUI_BKCOLOR_DEFAULT = -1
+Global Const $GUI_BKCOLOR_TRANSPARENT = -2
+Global Const $GUI_BKCOLOR_LV_ALTERNATE = -33554432
+Global Const $GUI_WS_EX_PARENTDRAG = 1048576
+Global Const $BS_GROUPBOX = 7
+Global Const $BS_BOTTOM = 2048
+Global Const $BS_CENTER = 768
+Global Const $BS_DEFPUSHBUTTON = 1
+Global Const $BS_LEFT = 256
+Global Const $BS_MULTILINE = 8192
+Global Const $BS_PUSHBOX = 10
+Global Const $BS_PUSHLIKE = 4096
+Global Const $BS_RIGHT = 512
+Global Const $BS_RIGHTBUTTON = 32
+Global Const $BS_TOP = 1024
+Global Const $BS_VCENTER = 3072
+Global Const $BS_FLAT = 32768
+Global Const $BS_ICON = 64
+Global Const $BS_BITMAP = 128
+Global Const $BS_NOTIFY = 16384
+Global Const $BS_3STATE = 5
+Global Const $BS_AUTO3STATE = 6
+Global Const $BS_AUTOCHECKBOX = 3
+Global Const $BS_CHECKBOX = 2
+Global Const $BS_AUTORADIOBUTTON = 9
+Global Const $TCS_BOTTOM = 2
+Global Const $TCS_BUTTONS = 256
+Global Const $TCS_FIXEDWIDTH = 1024
+Global Const $TCS_FLATBUTTONS = 8
+Global Const $TCS_FOCUSNEVER = 32768
+Global Const $TCS_FOCUSONBUTTONDOWN = 4096
+Global Const $TCS_FORCEICONLEFT = 16
+Global Const $TCS_FORCELABELLEFT = 32
+Global Const $TCS_HOTTRACK = 64
+Global Const $TCS_MULTILINE = 512
+Global Const $TCS_MULTISELECT = 4
+Global Const $TCS_OWNERDRAWFIXED = 8192
+Global Const $TCS_RAGGEDRIGHT = 2048
+Global Const $TCS_RIGHT = 2
+Global Const $TCS_RIGHTJUSTIFY = 0
+Global Const $TCS_SCROLLOPPOSITE = 1
+Global Const $TCS_SINGLELINE = 0
+Global Const $TCS_TABS = 0
+Global Const $TCS_TOOLTIPS = 16384
+Global Const $TCS_VERTICAL = 128
+Global Const $TCS_EX_FLATSEPARATORS = 1
+Global Const $TCS_EX_REGISTERDROP = 2
+Global Const $TC_ERR = -1
+Global Const $TCHT_NOWHERE = 1
+Global Const $TCHT_ONITEMICON = 2
+Global Const $TCHT_ONITEMLABEL = 4
+Global Const $TCHT_ONITEM = 6
+Global Const $TCIF_TEXT = 1
+Global Const $TCIF_IMAGE = 2
+Global Const $TCIF_RTLREADING = 4
+Global Const $TCIF_PARAM = 8
+Global Const $TCIF_STATE = 16
+Global Const $TCIF_ALLDATA = 27
+Global Const $TCIS_BUTTONPRESSED = 1
+Global Const $TCIS_HIGHLIGHTED = 2
+Global Const $TCM_FIRST = 4864
+Global Const $TCCM_FIRST = 8192
+Global Const $TCM_ADJUSTRECT = ($TCM_FIRST + 40)
+Global Const $TCM_DELETEALLITEMS = ($TCM_FIRST + 9)
+Global Const $TCM_DELETEITEM = ($TCM_FIRST + 8)
+Global Const $TCM_DESELECTALL = ($TCM_FIRST + 50)
+Global Const $TCM_GETCURFOCUS = ($TCM_FIRST + 47)
+Global Const $TCM_GETCURSEL = ($TCM_FIRST + 11)
+Global Const $TCM_GETEXTENDEDSTYLE = ($TCM_FIRST + 53)
+Global Const $TCM_GETIMAGELIST = ($TCM_FIRST + 2)
+Global Const $TCM_GETITEMA = ($TCM_FIRST + 5)
+Global Const $TCM_GETITEMW = ($TCM_FIRST + 60)
+Global Const $TCM_GETITEM = $TCM_GETITEMA
+Global Const $TCM_GETITEMCOUNT = ($TCM_FIRST + 4)
+Global Const $TCM_GETITEMRECT = ($TCM_FIRST + 10)
+Global Const $TCM_GETROWCOUNT = ($TCM_FIRST + 44)
+Global Const $TCM_GETTOOLTIPS = ($TCM_FIRST + 45)
+Global Const $TCCM_GETUNICODEFORMAT = ($TCCM_FIRST + 6)
+Global Const $TCM_GETUNICODEFORMAT = $TCCM_GETUNICODEFORMAT
+Global Const $TCM_HIGHLIGHTITEM = ($TCM_FIRST + 51)
+Global Const $TCM_HITTEST = ($TCM_FIRST + 13)
+Global Const $TCM_INSERTITEMA = ($TCM_FIRST + 7)
+Global Const $TCM_INSERTITEMW = ($TCM_FIRST + 62)
+Global Const $TCM_INSERTITEM = $TCM_INSERTITEMA
+Global Const $TCM_REMOVEIMAGE = ($TCM_FIRST + 42)
+Global Const $TCM_SETITEMA = ($TCM_FIRST + 6)
+Global Const $TCM_SETITEMW = ($TCM_FIRST + 61)
+Global Const $TCM_SETITEM = $TCM_SETITEMA
+Global Const $TCM_SETITEMEXTRA = ($TCM_FIRST + 14)
+Global Const $TCM_SETITEMSIZE = $TCM_FIRST + 41
+Global Const $TCM_SETCURFOCUS = ($TCM_FIRST + 48)
+Global Const $TCM_SETCURSEL = ($TCM_FIRST + 12)
+Global Const $TCM_SETEXTENDEDSTYLE = ($TCM_FIRST + 52)
+Global Const $TCM_SETIMAGELIST = $TCM_FIRST + 3
+Global Const $TCM_SETMINTABWIDTH = ($TCM_FIRST + 49)
+Global Const $TCM_SETPADDING = ($TCM_FIRST + 43)
+Global Const $TCM_SETTOOLTIPS = ($TCM_FIRST + 46)
+Global Const $TCCM_SETUNICODEFORMAT = ($TCCM_FIRST + 5)
+Global Const $TCM_SETUNICODEFORMAT = $TCCM_SETUNICODEFORMAT
+Global Const $TCN_FIRST = -550
+Global Const $TCN_FOCUSCHANGE = ($TCN_FIRST - 4)
+Global Const $TCN_GETOBJECT = ($TCN_FIRST - 3)
+Global Const $TCN_KEYDOWN = ($TCN_FIRST - 0)
+Global Const $TCN_SELCHANGE = ($TCN_FIRST - 1)
+Global Const $TCN_SELCHANGING = ($TCN_FIRST - 2)
+Global Const $PBS_SMOOTH = 1
+Global Const $PBS_VERTICAL = 4
+Global Const $PBS_MARQUEE = 8
+Global Const $PBM_SETRANGE = $WM_USER + 1
+Global Const $PBM_SETPOS = $WM_USER + 2
+Global Const $PBM_DELTAPOS = $WM_USER + 3
+Global Const $PBM_SETSTEP = $WM_USER + 4
+Global Const $PBM_STEPIT = $WM_USER + 5
+Global Const $PBM_SETRANGE32 = $WM_USER + 6
+Global Const $PBM_GETRANGE = $WM_USER + 7
+Global Const $PBM_GETPOS = $WM_USER + 8
+Global Const $PBM_SETBARCOLOR = $WM_USER + 9
+Global Const $PBM_SETMARQUEE = $WM_USER + 10
+Global Const $PBM_SETBKCOLOR = $CCM_SETBKCOLOR
+Func _FileCountLines($SFILEPATH)
+	Local $N = FileGetSize($SFILEPATH) - 1
+	If @error Or $N = -1 Then Return 0
+	Return StringLen(StringAddCR(FileRead($SFILEPATH, $N))) - $N + 1
+EndFunc
+Func _FileCreate($SFILEPATH)
+	Local $HOPENFILE
+	Local $HWRITEFILE
+	$HOPENFILE = FileOpen($SFILEPATH, 2)
+	If $HOPENFILE = -1 Then
+		SetError(1)
+		Return 0
+	EndIf
+	$HWRITEFILE = FileWrite($HOPENFILE, "")
+	If $HWRITEFILE = -1 Then
+		SetError(2)
+		Return 0
+	EndIf
+	FileClose($HOPENFILE)
+	Return 1
+EndFunc
+Func _FileListToArray($SPATH, $SFILTER = "*", $IFLAG = 0)
+	Local $HSEARCH, $SFILE, $ASFILELIST[1]
+	If Not FileExists($SPATH) Then Return SetError(1, 1, "")
+	If (StringInStr($SFILTER, "\")) Or (StringInStr($SFILTER, "/")) Or (StringInStr($SFILTER, ":")) Or (StringInStr($SFILTER, ">")) Or (StringInStr($SFILTER, "<")) Or (StringInStr($SFILTER, "|")) Or (StringStripWS($SFILTER, 8) = "") Then Return SetError(2, 2, "")
+	If Not ($IFLAG = 0 Or $IFLAG = 1 Or $IFLAG = 2) Then Return SetError(3, 3, "")
+	$HSEARCH = FileFindFirstFile($SPATH & "\" & $SFILTER)
+	If $HSEARCH = -1 Then Return SetError(4, 4, "")
+	While 1
+		$SFILE = FileFindNextFile($HSEARCH)
+		If @error Then
+			SetError(0)
+			ExitLoop
+		EndIf
+		If $IFLAG = 1 And StringInStr(FileGetAttrib($SPATH & "\" & $SFILE), "D") <> 0 Then ContinueLoop
+		If $IFLAG = 2 And StringInStr(FileGetAttrib($SPATH & "\" & $SFILE), "D") = 0 Then ContinueLoop
+		ReDim $ASFILELIST[UBound($ASFILELIST) + 1]
+		$ASFILELIST[0] = $ASFILELIST[0] + 1
+		$ASFILELIST[UBound($ASFILELIST) - 1] = $SFILE
+	WEnd
+	FileClose($HSEARCH)
+	Return $ASFILELIST
+EndFunc
+Func _FilePrint($S_FILE, $I_SHOW = @SW_HIDE)
+	Local $A_RET = DllCall("shell32.dll", "long", "ShellExecute", "hwnd", 0, "string", "print", "string", $S_FILE, "string", "", "string", "", "int", $I_SHOW)
+	If $A_RET[0] > 32 And Not @error Then
+		Return 1
+	Else
+		SetError($A_RET[0])
+		Return 0
+	EndIf
+EndFunc
+Func _FileReadToArray($SFILEPATH, ByRef $AARRAY)
+	Local $HFILE
+	$HFILE = FileOpen($SFILEPATH, 0)
+	If $HFILE = -1 Then
+		SetError(1)
+		Return 0
+	EndIf
+	$AARRAY = StringSplit(StringStripCR(FileRead($HFILE, FileGetSize($SFILEPATH))), @LF)
+	FileClose($HFILE)
+	Return 1
+EndFunc
+Func _FileWriteFromArray($FILE, $A_ARRAY, $I_BASE = 0, $I_UBOUND = 0)
+	If Not IsArray($A_ARRAY) Then Return SetError(2, 0, 0)
+	Local $LAST = UBound($A_ARRAY) - 1
+	If $I_UBOUND < 1 Or $I_UBOUND > $LAST Then $I_UBOUND = $LAST
+	If $I_BASE < 0 Or $I_BASE > $LAST Then $I_BASE = 0
+	Local $HFILE
+	If IsString($FILE) Then
+		$HFILE = FileOpen($FILE, 2)
+	Else
+		$HFILE = $FILE
+	EndIf
+	If $HFILE = -1 Then Return SetError(1, 0, 0)
+	Local $ERRORSAV = 0
+	For $X = $I_BASE To $I_UBOUND
+		If FileWrite($HFILE, @CRLF & $A_ARRAY[$X]) = 0 Then
+			$ERRORSAV = 3
+			ExitLoop
+		EndIf
+	Next
+	If IsString($FILE) Then FileClose($HFILE)
+	If $ERRORSAV Then
+		Return SetError($ERRORSAV, 0, 0)
+	Else
+		Return 1
+	EndIf
+EndFunc
+Func _FileWriteLog($SLOGPATH, $SLOGMSG)
+	Local $SDATENOW
+	Local $STIMENOW
+	Local $SMSG
+	Local $HOPENFILE
+	Local $HWRITEFILE
+	$SDATENOW = @YEAR & "-" & @MON & "-" & @MDAY
+	$STIMENOW = @HOUR & ":" & @MIN & ":" & @SEC
+	$SMSG = $SDATENOW & " " & $STIMENOW & " : " & $SLOGMSG
+	$HOPENFILE = FileOpen($SLOGPATH, 1)
+	If $HOPENFILE = -1 Then
+		SetError(1)
+		Return 0
+	EndIf
+	$HWRITEFILE = FileWriteLine($HOPENFILE, $SMSG)
+	If $HWRITEFILE = -1 Then
+		SetError(2)
+		Return 0
+	EndIf
+	FileClose($HOPENFILE)
+	Return 1
+EndFunc
+Func _FileWriteToLine($SFILE, $ILINE, $STEXT, $FOVERWRITE = 0)
+	If $ILINE <= 0 Then
+		SetError(4)
+		Return 0
+	EndIf
+	If Not IsString($STEXT) Then
+		SetError(6)
+		Return 0
+	EndIf
+	If $FOVERWRITE <> 0 And $FOVERWRITE <> 1 Then
+		SetError(5)
+		Return 0
+	EndIf
+	If Not FileExists($SFILE) Then
+		SetError(2)
+		Return 0
+	EndIf
+	Local $FILTXT = FileRead($SFILE, FileGetSize($SFILE))
+	$FILTXT = StringSplit($FILTXT, @CRLF, 1)
+	If UBound($FILTXT, 1) < $ILINE Then
+		SetError(1)
+		Return 0
+	EndIf
+	Local $FIL = FileOpen($SFILE, 2)
+	If $FIL = -1 Then
+		SetError(3)
+		Return 0
+	EndIf
+	For $I = 1 To UBound($FILTXT) - 1
+		If $I = $ILINE Then
+			If $FOVERWRITE = 1 Then
+				If $STEXT <> "" Then
+					FileWrite($FIL, $STEXT & @CRLF)
+				Else
+					FileWrite($FIL, $STEXT)
+				EndIf
+			EndIf
+			If $FOVERWRITE = 0 Then
+				FileWrite($FIL, $STEXT & @CRLF)
+				FileWrite($FIL, $FILTXT[$I] & @CRLF)
+			EndIf
+		ElseIf $I < UBound($FILTXT, 1) - 1 Then
+			FileWrite($FIL, $FILTXT[$I] & @CRLF)
+		ElseIf $I = UBound($FILTXT, 1) - 1 Then
+			FileWrite($FIL, $FILTXT[$I])
+		EndIf
+	Next
+	FileClose($FIL)
+	Return 1
+EndFunc
+Func _PathFull($SRELATIVEPATH, $SBASEPATH = @WorkingDir)
+	If Not $SRELATIVEPATH Or $SRELATIVEPATH = "." Then Return $SBASEPATH
+	Local $SFULLPATH = StringReplace($SRELATIVEPATH, "/", "\")
+	Local $SPATH
+	Local $BROOTONLY = False
+	StringReplace($SFULLPATH, "\", "")
+	If @extended = StringLen($SFULLPATH) Then $BROOTONLY = True
+	For $I = 1 To 2
+		$SPATH = StringLeft($SFULLPATH, 2)
+		If $SPATH = "\\" Then
+			$SFULLPATH = StringTrimLeft($SFULLPATH, 2)
+			$SPATH &= StringLeft($SFULLPATH, StringInStr($SFULLPATH, "\") - 1)
+			ExitLoop
+		ElseIf StringRight($SPATH, 1) = ":" Then
+			$SFULLPATH = StringTrimLeft($SFULLPATH, 2)
+			ExitLoop
+		Else
+			$SFULLPATH = $SBASEPATH & "\" & $SFULLPATH
+		EndIf
+	Next
+	If $I = 3 Then Return ""
+	Local $ATEMP = StringSplit($SFULLPATH, "\")
+	Local $APATHPARTS[$ATEMP[0]], $J = 0
+	For $I = 2 To $ATEMP[0]
+		If $ATEMP[$I] = ".." Then
+			If $J Then $J -= 1
+		ElseIf Not ($ATEMP[$I] = "" And $I <> $ATEMP[0]) And $ATEMP[$I] <> "." Then
+			$APATHPARTS[$J] = $ATEMP[$I]
+			$J += 1
+		EndIf
+	Next
+	$SFULLPATH = $SPATH
+	If Not $BROOTONLY Then
+		For $I = 0 To $J - 1
+			$SFULLPATH &= "\" & $APATHPARTS[$I]
+		Next
+	Else
+		$SFULLPATH &= "\"
+	EndIf
+	While StringInStr($SFULLPATH, ".\")
+		$SFULLPATH = StringReplace($SFULLPATH, ".\", "\")
+	WEnd
+	Return $SFULLPATH
+EndFunc
+Func _PathMake($SZDRIVE, $SZDIR, $SZFNAME, $SZEXT)
+	Local $SZFULLPATH
+	If StringLen($SZDRIVE) Then
+		If Not (StringLeft($SZDRIVE, 2) = "\\") Then $SZDRIVE = StringLeft($SZDRIVE, 1) & ":"
+	EndIf
+	If StringLen($SZDIR) Then
+		If Not (StringRight($SZDIR, 1) = "\") And Not (StringRight($SZDIR, 1) = "/") Then $SZDIR = $SZDIR & "\"
+	EndIf
+	If StringLen($SZEXT) Then
+		If Not (StringLeft($SZEXT, 1) = ".") Then $SZEXT = "." & $SZEXT
+	EndIf
+	$SZFULLPATH = $SZDRIVE & $SZDIR & $SZFNAME & $SZEXT
+	Return $SZFULLPATH
+EndFunc
+Func _PathSplit($SZPATH, ByRef $SZDRIVE, ByRef $SZDIR, ByRef $SZFNAME, ByRef $SZEXT)
+	Local $DRIVE = ""
+	Local $DIR = ""
+	Local $FNAME = ""
+	Local $EXT = ""
+	Local $POS
+	Local $ARRAY[5]
+	$ARRAY[0] = $SZPATH
+	If StringMid($SZPATH, 2, 1) = ":" Then
+		$DRIVE = StringLeft($SZPATH, 2)
+		$SZPATH = StringTrimLeft($SZPATH, 2)
+	ElseIf StringLeft($SZPATH, 2) = "\\" Then
+		$SZPATH = StringTrimLeft($SZPATH, 2)
+		$POS = StringInStr($SZPATH, "\")
+		If $POS = 0 Then $POS = StringInStr($SZPATH, "/")
+		If $POS = 0 Then
+			$DRIVE = "\\" & $SZPATH
+			$SZPATH = ""
+		Else
+			$DRIVE = "\\" & StringLeft($SZPATH, $POS - 1)
+			$SZPATH = StringTrimLeft($SZPATH, $POS - 1)
+		EndIf
+	EndIf
+	Local $NPOSFORWARD = StringInStr($SZPATH, "/", 0, -1)
+	Local $NPOSBACKWARD = StringInStr($SZPATH, "\", 0, -1)
+	If $NPOSFORWARD >= $NPOSBACKWARD Then
+		$POS = $NPOSFORWARD
+	Else
+		$POS = $NPOSBACKWARD
+	EndIf
+	$DIR = StringLeft($SZPATH, $POS)
+	$FNAME = StringRight($SZPATH, StringLen($SZPATH) - $POS)
+	If StringLen($DIR) = 0 Then $FNAME = $SZPATH
+	$POS = StringInStr($FNAME, ".", 0, -1)
+	If $POS Then
+		$EXT = StringRight($FNAME, StringLen($FNAME) - ($POS - 1))
+		$FNAME = StringLeft($FNAME, $POS - 1)
+	EndIf
+	$SZDRIVE = $DRIVE
+	$SZDIR = $DIR
+	$SZFNAME = $FNAME
+	$SZEXT = $EXT
+	$ARRAY[1] = $DRIVE
+	$ARRAY[2] = $DIR
+	$ARRAY[3] = $FNAME
+	$ARRAY[4] = $EXT
+	Return $ARRAY
+EndFunc
+Func _ReplaceStringInFile($SZFILENAME, $SZSEARCHSTRING, $SZREPLACESTRING, $FCASENESS = 0, $FOCCURANCE = 1)
+	Local $IRETVAL = 0
+	Local $HWRITEHANDLE, $AFILELINES, $NCOUNT, $SENDSWITH, $HFILE
+	If StringInStr(FileGetAttrib($SZFILENAME), "R") Then
+		SetError(6)
+		Return -1
+	EndIf
+	$HFILE = FileOpen($SZFILENAME, 0)
+	If $HFILE = -1 Then
+		SetError(1)
+		Return -1
+	EndIf
+	Local $S_TOTFILE = FileRead($HFILE, FileGetSize($SZFILENAME))
+	If StringRight($S_TOTFILE, 2) = @CRLF Then
+		$SENDSWITH = @CRLF
+	ElseIf StringRight($S_TOTFILE, 1) = @CR Then
+		$SENDSWITH = @CR
+	ElseIf StringRight($S_TOTFILE, 1) = @LF Then
+		$SENDSWITH = @LF
+	Else
+		$SENDSWITH = ""
+	EndIf
+	$AFILELINES = StringSplit(StringStripCR($S_TOTFILE), @LF)
+	FileClose($HFILE)
+	$HWRITEHANDLE = FileOpen($SZFILENAME, 2)
+	If $HWRITEHANDLE = -1 Then
+		SetError(2)
+		Return -1
+	EndIf
+	For $NCOUNT = 1 To $AFILELINES[0]
+		If StringInStr($AFILELINES[$NCOUNT], $SZSEARCHSTRING, $FCASENESS) Then
+			$AFILELINES[$NCOUNT] = StringReplace($AFILELINES[$NCOUNT], $SZSEARCHSTRING, $SZREPLACESTRING, 1 - $FOCCURANCE, $FCASENESS)
+			$IRETVAL = $IRETVAL + 1
+			If $FOCCURANCE = 0 Then
+				$IRETVAL = 1
+				ExitLoop
+			EndIf
+		EndIf
+	Next
+	For $NCOUNT = 1 To $AFILELINES[0] - 1
+		If FileWriteLine($HWRITEHANDLE, $AFILELINES[$NCOUNT]) = 0 Then
+			SetError(3)
+			FileClose($HWRITEHANDLE)
+			Return -1
+		EndIf
+	Next
+	If $AFILELINES[$NCOUNT] <> "" Then FileWrite($HWRITEHANDLE, $AFILELINES[$NCOUNT] & $SENDSWITH)
+	FileClose($HWRITEHANDLE)
+	Return $IRETVAL
+EndFunc
+Func _TempFile($S_DIRECTORYNAME = @TempDir, $S_FILEPREFIX = "~", $S_FILEEXTENSION = ".tmp", $I_RANDOMLENGTH = 7)
+	Local $S_TEMPNAME
+	If Not FileExists($S_DIRECTORYNAME) Then $S_DIRECTORYNAME = @TempDir
+	If Not FileExists($S_DIRECTORYNAME) Then $S_DIRECTORYNAME = @ScriptDir
+	If StringRight($S_DIRECTORYNAME, 1) <> "\" Then $S_DIRECTORYNAME = $S_DIRECTORYNAME & "\"
+	Do
+		$S_TEMPNAME = ""
+		While StringLen($S_TEMPNAME) < $I_RANDOMLENGTH
+			$S_TEMPNAME = $S_TEMPNAME & Chr(Random(97, 122, 1))
+		WEnd
+		$S_TEMPNAME = $S_DIRECTORYNAME & $S_FILEPREFIX & $S_TEMPNAME & $S_FILEEXTENSION
+	Until Not FileExists($S_TEMPNAME)
+	Return ($S_TEMPNAME)
+EndFunc
+
+;
+; AutoIt Version: 3.0
+; Language:       French
+; Platform:       Win9x/NT/XP/7
+; Author:        Daniel Reynaud
+; Script Function:
+;   Decryptage des mdp admin et presta Sogeres
+; Comment:
+;	Franck Gay
+#CS                  _
+###                  \`\
+###        /./././.   | |
+###      /        `/. | |
+###     /     __    `/'/'
+###  /\__/\ /'  `\    /
+### |  oo  |      `.,.|
+###  \vvvv/        ||||
+###    ||||        ||||
+###    ||||        ||||
+###    `'`'        `'`'
+#CE
+
+
+$PRESTA = "655"
+$ADMIN = "521"
+Dim $TOTAL
+Dim $PASSWORD
+Func SHOWPWD($COMPUTERNAME, $SUF)
+	$PASSWORD = ""
+	$TAILLE = StringLen($COMPUTERNAME)
+	For $I = 1 To $TAILLE + 1
+		$CAR = StringMid($COMPUTERNAME, $I, 1)
+		$NUM = Asc($CAR)
+		$TOTAL = $TOTAL + $NUM
+	Next
+	$PASSWORD = $TOTAL & $SUF
+	$TOTAL = ""
+ EndFunc
+ Func SHOWPWD2($COMPUTERNAME, $SUF)
+	$PASSWORD = ""
+	$CLE = "451"
+	$Car1 = StringMid($COMPUTERNAME, 2, 1)
+	$Car2 = StringMid($COMPUTERNAME, 3, 1)
+	$Car3 = StringMid($COMPUTERNAME, 4, 1)
+	$Car4 = StringMid($COMPUTERNAME, 5, 1)
+	$Car5 = StringMid($COMPUTERNAME, 6, 1)
+	$Car6 = StringMid($COMPUTERNAME, 7, 1)
+	$Car7 = StringMid($COMPUTERNAME, 8, 1)
+	$TOTAL = $Car1 + $Car2 + $Car3 + $Car4 + $Car5 + $Car6 + $Car7
+	$CLE+$TOTAL
+	$PASSWORD = $CLE + $TOTAL 
+	$TOTAL = ""
+EndFunc
+
+#region ### START Koda GUI section ### Form=
+$FORM1 = GUICreate("SOGERES : Mot de passe Poste Admin et Presta ", 370, 300)
+$INPUT1 = GUICtrlCreateInput("", 184, 8, 169, 21)
+$ORDI = GUICtrlCreateLabel("Ordinateur (FRFMS-..)", 8, 8, 53, 40)
+$LABEL1 = GUICtrlCreateLabel("Mot de passe Administrator", 8, 48, 131, 17)
+$LABEL2 = GUICtrlCreateLabel("Mot de passe Prestataire", 8, 96, 121, 17)
+$ADMINPWD = GUICtrlCreateLabel("Mot de passe Administrator", 184, 48, 154, 19)
+GUICtrlSetFont(-1, 10, 800, 0, "Calibri")
+GUICtrlSetColor(-1, 16711680)
+$PRESTAPWD = GUICtrlCreateLabel("Mot de passe Prestataire", 184, 96, 138, 19)
+GUICtrlSetFont(-1, 10, 800, 0, "Calibri")
+GUICtrlSetColor(-1, 16711680)
+
+$ORDI2 = GUICtrlCreateLabel("Ordinateur (S500...)", 8, 140, 53, 40)
+$INPUT2 = GUICtrlCreateInput("", 184, 140, 169, 21)
+$LABEL3 = GUICtrlCreateLabel("Mot de passe Administrator", 8, 180, 131, 17)
+$LABEL4 = GUICtrlCreateLabel("Mot de passe Prestataire", 8, 220, 121, 17)
+$ADMINPWD2 = GUICtrlCreateLabel("Mot de passe Administrator", 184, 180, 154, 19)
+GUICtrlSetFont(-1, 10, 800, 0, "Calibri")
+GUICtrlSetColor(-1, 16711680)
+$PRESTAPWD2 = GUICtrlCreateLabel("Mot de passe Prestataire", 184, 220, 138, 19)
+GUICtrlSetFont(-1, 10, 800, 0, "Calibri")
+GUICtrlSetColor(-1, 16711680)
+
+$OK = GUICtrlCreateButton("OK", 64, 260, 73, 25, 0)
+$CANCEL = GUICtrlCreateButton("Cancel", 197, 260, 73, 25, 0)
+GUISetState(@SW_SHOW)
+#endregion ### END Koda GUI section ###
+While 1
+	$NMSG = GUIGetMsg()
+	Switch $NMSG
+		Case $CANCEL
+			GUISetState(@SW_HIDE)
+			Exit
+		Case $OK
+			$COMP = GUICtrlRead($INPUT1)
+			If GUICtrlRead($INPUT1)  <> "" then
+				$COMP = StringLower($COMP)
+				Call("Showpwd", $COMP, $ADMIN)
+				GUICtrlSetData($ADMINPWD, $PASSWORD)
+				Call("Showpwd", $COMP, $PRESTA)
+				GUICtrlSetData($PRESTAPWD, $PASSWORD)
+			EndIf
+			
+			If GUICtrlRead($INPUT2)  <> "" then
+				$Ordi = GUICtrlRead($INPUT2)
+				$Ordi = StringLower($Ordi)
+				Call("Showpwd2", $Ordi, $ADMIN)
+				GUICtrlSetData($ADMINPWD2, $PASSWORD & "2624-A*")
+				Call("Showpwd2", $Ordi, $PRESTA)
+				GUICtrlSetData($PRESTAPWD2, $PASSWORD & "6248-P*")
+			EndIf
+			
+		Case $GUI_EVENT_CLOSE
+			Exit
+	EndSwitch
+WEnd
+
