@@ -4,8 +4,8 @@ Econocom Osiatis
 Sodexo
 --------------
 
-Il s'agit là des projets que j'ai mit au point pour rendre la vie *plus facile*
-à quelque techniciens helpdesk pendant ma période Hotline pour le groupe **Sodexo**
+Il s'agit là des projets que j'ai mis au point pour rendre la vie *plus facile*
+à qmes collègues et moi-même en tant que technicien Helpdesk pour le groupe **Sodexo**
 
 - Suppression des fichiers temporaires pour les postes Xp ou 7
 - Fichier de décryptage de mot de passe administrateurs pour certains postes
